@@ -1,0 +1,41 @@
+<!--Style Page--> 
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing :
+}
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    border-bottom: 1px;
+    border-bottom: black;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+header, main, footer {
+   margin: 1.25rem auto;
+   padding: 0.5rem;
+   max-width: 960px; 
+}
+
+header, footer {
+    text-align: center;
+    background-color: #646f58;
+}
