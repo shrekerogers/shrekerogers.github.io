@@ -1,0 +1,66 @@
+<!--Style Page--> 
+*{
+    margin: 0;
+    padding-bottom:  1.5rem;
+    box-sizing :
+}
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Open! Sans', sans-serif;
+    color:black;
+    image-orientation: float;
+    image-rendering: auto;
+    border-image-width: 1.5;
+    padding-bottom: 1rem;
+    
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 32px;
+
+    font-family:'Public Sans', sans-serif;
+    color: #dde392;
+    background-color: #646f58;
+    image-resolution: 10%;
+    
+  
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family:'Public Sans', sans-serif;
+    text-align: left;
+    color: #646f58;
+    background-color: #dde392;
+   
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family:'Public Sans', sans-serif;
+    text-align: left;
+    color: #dde392;
+    background-color:#504b3a;
+   
+}
+
+header, main, footer {
+   margin: 1.25rem auto;
+   padding: 0.5rem;
+   max-width: 960px; 
+   image-orientation: float;
+
+   image-resolution: 25%;
+
+
+
+}
+
+footer {
+    text-align: center;
+    background-color: #646f58;
+}
