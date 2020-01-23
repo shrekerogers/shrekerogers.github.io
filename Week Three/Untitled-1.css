@@ -1,0 +1,93 @@
+<style sheet>
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Work+Sans&display=swap');
+</style>
+</style>
+text{
+text-align: left;
+} 
+
+nav {
+  background-color:#646f58;
+   font-size: 1.2em;
+   line-height: 3em;
+   font-weight: bold;
+  
+}
+
+nav a{
+  color:#dde392;
+  text-decoration: none:
+}
+
+nav li{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+
+
+
+#row1 {
+  background-color:#504b3a;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  
+}
+
+#row2 {
+  background-color:#646f58;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  
+
+#row3 {
+  display: flex;
+  padding: 10px;
+  }
+  h1,h2,h3,h4,h5,h6 {
+  color:#;
+  font-family:"Work Sans", "Fira Sans", sans-serif;
+  justify-content: left;
+  align-items: left;  
+  margin-bottom: -15px;
+  }
+
+div a{
+ width:80px;
+ border:1px solid black;
+}
+
+content{
+  page:75%;
+}
+
+
+body {
+font-family:"Work Sans", "Fira Sans", sans-serif;
+
+}
+
+
+.left-column {
+  width: 48%;
+  flex: 1 0 15em
+}
+
+.right-column{
+  width: 48%;
+  flex: 1 0 15em
+
+
+    
+.footer2 {
+background-color: #dde392;
+ }
