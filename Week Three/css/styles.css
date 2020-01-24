@@ -13,6 +13,7 @@ body{
 
 header, 
 footer{
+    font-family:  'Oswald', sans-serif;
     background-color:  #646f58;
     display: flex;
     flex-flow:  column;
