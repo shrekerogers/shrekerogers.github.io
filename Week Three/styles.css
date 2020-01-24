@@ -3,9 +3,22 @@
 body{
     font-size: 18px;
     line-height: 1.5em;
+    font-family:    'Open! Sans', sans-serif;
+    color: black;
+    padding-bottom: 1rem;
 
 }
 
+h1{
+    font-size: 3rem;
+    line-height: 32px;
+
+    font-family:'Public Sans', sans-serif;
+    color: #dde392;
+    background-color: #646f58;
+    image-resolution: 10%;  
+}
+/*
 header, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
@@ -16,4 +29,4 @@ header {
     color: darkseagreen;
     text-align: left;
     padding: 1.5rem;
-}
+}*/
