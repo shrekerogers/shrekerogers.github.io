@@ -28,8 +28,11 @@ h2 {
     background-color: #dde392;
 }
 
-main, nav, ul{
+ nav    {
     background-color:  #504b3av;
+    text-align: center;
+    box-shadow: 0 2px 15px #504b3av;
+    
  }
  
 
