@@ -12,12 +12,12 @@ body{
 h1{
     font-size: 3rem;
     line-height: 32px;
-
     font-family:'Public Sans', sans-serif;
     color: #dde392;
     background-color: #646f58;
     image-resolution: 10%;  
 }
+
 /*
 header, main, footer {
     margin: 1.25rem auto;
