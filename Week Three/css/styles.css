@@ -11,7 +11,7 @@ body{
 
 }
 
-h1{
+h1  {
     font-size: 3rem;
     line-height: 32px;
     font-family:'Public Sans', sans-serif;
@@ -20,19 +20,27 @@ h1{
     image-resolution: 10%;  
 }
 
-/*
-header, main, footer {
-    margin: 1.25rem auto;
-    max-width: 760px;
+h2 {
+    font-size: 2.5rem;
+    font-family:'Public Sans', sans-serif;
+    text-align: left;
+    color: #646f58;
+    background-color: #dde392;
 }
 
-header {
-    background-color: darkolivegreen;
-    color: darkseagreen;
-    text-align: left;
-    padding: 1.5rem;
-}*/
+main, nav, ul{
+    background-color:  #504b3av;
+ }
+ 
 
-footer{
+header, main, footer {
+    /*need to add things to this*/
+}
+
+
+
+footer  {
     text-align: center;
+    color:  #dde392;
     background-color: #646f58;
+}
