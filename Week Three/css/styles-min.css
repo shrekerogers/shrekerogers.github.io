@@ -47,14 +47,14 @@ h2 {
 }
 
  nav    {
-    color: #dde392;
-    background-color:  #dde392;
+    color: #AFBE8F;
+    background-color:  #504b3a;
     text-align: center;
-    box-shadow: 0 2px 15px #504b3a;
+    box-shadow: 0 2px 15px ;
 
  }
  
-nav ul{
+ul{
     list-style-type: none;
 	margin: 0;
 	padding: 0;

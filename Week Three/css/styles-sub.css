@@ -13,9 +13,9 @@ footer{
     font-family:  'Oswald', sans-serif;
     background-color:  #646f58;
     display: flex;
-    flex-flow:  column;
+    
     align-items:    left;
-    justify-content: center;
+    justify-content: left;
     padding: 10px;
 }
 
@@ -32,3 +32,29 @@ h1  {
     font-family:'Public Sans', sans-serif;
     color: #dde392;
     background-color: #646f58;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family:'Public Sans', sans-serif;
+    text-align: left;
+    color: #dde392;
+    background-color:#646f58;
+}
+
+ nav    {
+    color: #AFBE8F;
+    background-color:  #504b3a;
+    text-align: left;
+    box-shadow: 0 2px 15px;
+    image-resolution: 10%;
+
+ }
+
+
+footer  {
+    text-align: center;
+    color:  #dde392;
+    background-color: #646f58;
+}
