@@ -10,3 +10,10 @@ header, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
 }
+
+header {
+    background-color: darkolivegreen;
+    color: darkseagreen;
+    text-align: left;
+    padding: 1.5rem;
+}
