@@ -11,31 +11,63 @@ body{
 
 }
 
+header, 
+footer{
+    background-color:  #646f58;
+    display: flex;
+    flex-flow:  column;
+    align-items:    left;
+    justify-content: center;
+    padding: 10px;
+}
+
+header, 
+nav, 
+footer {
+    max-width: 767px:
+    margin: 0 auto;
+}
+
 h1  {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 32px;
     font-family:'Public Sans', sans-serif;
     color: #dde392;
     background-color: #646f58;
-    image-resolution: 10%;  
+
 }
 
 h2 {
     font-size: 2.5rem;
     font-family:'Public Sans', sans-serif;
     text-align: left;
-    color: #646f58;
-    background-color: #dde392;
+    color: #dde392;
+    background-color:#646f58;
 }
 
  nav    {
-    background-color:  #504b3av;
+    color: #dde392;
+    background-color:  #dde392;
     text-align: center;
-    box-shadow: 0 2px 15px #504b3av;
-    
+    box-shadow: 0 2px 15px #504b3a;
+
  }
  
+nav ul{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+    color:#dde392;
 
+}
+
+article{
+   color: #504b3a;
+}
+
+
+}
 header, main, footer {
     /*need to add things to this*/
 }
