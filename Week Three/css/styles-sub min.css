@@ -13,7 +13,7 @@ footer{
     font-family:  'Oswald', sans-serif;
     background-color:  #646f58;
     display: flex;
-    
+
     align-items:    left;
     justify-content: left;
     padding: 10px;
@@ -22,7 +22,7 @@ footer{
 header, 
 nav, 
 footer {
-    max-width: 767px:
+    max-width: 767px;
     margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ h1  {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-family:'Public Sans', sans-serif;
     text-align: left;
     color: #dde392;
