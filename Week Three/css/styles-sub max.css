@@ -1,70 +1,70 @@
-<!--Style Page-->
-    body{
+<!--Sub Pages-->
+body{
     font-size: 18px;
     line-height: 1.5em;
     font-family:    'Open! Sans', sans-serif;
     color: black;
     padding-bottom: 1rem;
     margin: auto;
-    }
+}
 
-    header, 
-    footer{
+header, 
+footer{
     font-family:  'Oswald', sans-serif;
     background-color:  #646f58;
     display: flex;
-    flex-flow:  column;
-    align-items:    center;
-    justify-content:    center;
+    
+    align-items:    left;
+    justify-content: left;
     padding: 10px;
+}
+
+header, 
+nav, 
+footer {
     max-width: 767px;
     margin: 0 auto;
-    }
-    
-    
-    h1  {
+}
+
+h1  {
     font-size: 2rem;
     line-height: 32px;
-    font-family:    'Oswald', sans-serif;
+    font-family:'Public Sans', sans-serif;
     color: #dde392;
     background-color: #646f58;
-    }
-    h2 {
+
+}
+
+h2 {
     font-size: 2.5rem;
-    font-family:'Oswald', sans-serif;
+    font-family:'Public Sans', sans-serif;
     text-align: left;
     color: #dde392;
     background-color:#646f58;
-    }
+}
 
-    nav    {
+ nav    {
     color: #AFBE8F;
     background-color:  #504b3a;
-    text-align: center;
-    box-shadow: 0 2px 15px ;
+    text-align: left;
+    box-shadow: 0 2px 15px;
+    image-resolution: 10%;
 
-    }
- 
-    ul{
-    list-style-type: none;
-	margin: 0;
-	padding: 0;
-    overflow: hidden;
-    color:#dde392;
+ }
 
-    }
-    footer  {
+
+footer  {
     text-align: center;
     color:  #dde392;
     background-color: #646f58;
-    }
+}
+
 
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	
-    nav ul {
+    nav ul { 
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     }
-
-}   
+}

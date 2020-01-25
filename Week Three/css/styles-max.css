@@ -1,21 +1,4 @@
-<!--Style Page-->
-<!--Phone View-->
-
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-	nav a {
-		font-size: 1.1rem;
-	}
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-	article:nth-child(3) {
-		grid-column: span 1;
-	}
-}
-
-
-    
+<!--styles sheet mid-->
 body{
     font-size: 18px;
     line-height: 1.5em;
@@ -41,7 +24,7 @@ footer{
 header, 
 nav, 
 footer {
-    max-width: 767px:
+    max-width: 767px;
     margin: 0 auto;
 }
 
@@ -79,20 +62,22 @@ ul{
 
 }
 
-article{
-   color: #504b3a;
-}
-
-
-}
-header, main, footer {
-    /*need to add things to this*/
-}
-
-
-
 footer  {
     text-align: center;
     color:  #dde392;
     background-color: #646f58;
 }
+
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	    nav {
+		font-size: 1.1rem;
+	    }
+	    main {
+		grid-template-columns: 1fr 1fr 1fr;
+	    }
+	    article:nth-child(3) {
+		grid-column: span 1;
+        }
+    }
