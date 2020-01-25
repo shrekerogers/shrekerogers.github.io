@@ -1,0 +1,82 @@
+<!--Style Page-->
+
+body{
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family:    'Open! Sans', sans-serif;
+    color: black;
+    padding-bottom: 1rem;
+    margin: auto;
+   
+
+}
+
+header, 
+footer{
+    font-family:  'Oswald', sans-serif;
+    background-color:  #646f58;
+    display: flex;
+    flex-flow:  column;
+    align-items:    left;
+    justify-content: center;
+    padding: 10px;
+}
+
+header, 
+nav, 
+footer {
+    max-width: 767px:
+    margin: 0 auto;
+}
+
+h1  {
+    font-size: 2rem;
+    line-height: 32px;
+    font-family:'Public Sans', sans-serif;
+    color: #dde392;
+    background-color: #646f58;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family:'Public Sans', sans-serif;
+    text-align: left;
+    color: #dde392;
+    background-color:#646f58;
+}
+
+ nav    {
+    color: #AFBE8F;
+    background-color:  #504b3a;
+    text-align: center;
+    box-shadow: 0 2px 15px ;
+
+ }
+ 
+ul{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+    color:#dde392;
+
+}
+
+article{
+   color: #504b3a;
+}
+
+
+}
+header, main, footer {
+    /*need to add things to this*/
+}
+
+
+
+footer  {
+    text-align: center;
+    color:  #dde392;
+    background-color: #646f58;
+}
