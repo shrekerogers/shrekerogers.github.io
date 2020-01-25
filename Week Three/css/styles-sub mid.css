@@ -1,4 +1,17 @@
-<!--Sub Pages>
+<!--Sub Pages-->
+
+
+@media only screen and (min-width: 37.5em) {
+	
+    nav ul { 
+        display: grid;
+        grid-template-columns: repeat (auto-fill, minmax(130px, 1fr));
+    }   
+}
+
+
+
+
 body{
     font-size: 18px;
     line-height: 1.5em;
@@ -8,21 +21,11 @@ body{
     margin: auto;
 }
 
-header, 
-footer{
-    font-family:  'Oswald', sans-serif;
-    background-color:  #646f58;
-    display: flex;
-    
-    align-items:    left;
-    justify-content: left;
-    padding: 10px;
-}
 
 header, 
 nav, 
 footer {
-    max-width: 767px:
+    max-width: 767px;
     margin: 0 auto;
 }
 
@@ -59,12 +62,3 @@ footer  {
     background-color: #646f58;
 }
 
-
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-	
-    nav ul { 
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    }
-}

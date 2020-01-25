@@ -1,4 +1,6 @@
-<!--Sub Pages>
+<!--Sub Pages-->
+
+
 body{
     font-size: 18px;
     line-height: 1.5em;
@@ -7,18 +9,6 @@ body{
     padding-bottom: 1rem;
     margin: auto;
 }
-
-header, 
-footer{
-    font-family:  'Oswald', sans-serif;
-    background-color:  #646f58;
-    display: flex;
-
-    align-items:    left;
-    justify-content: left;
-    padding: 10px;
-}
-
 header, 
 nav, 
 footer {
@@ -29,7 +19,7 @@ footer {
 h1  {
     font-size: 2rem;
     line-height: 32px;
-    font-family:'Public Sans', sans-serif;
+    font-family:'Oswald', sans-serif;
     color: #dde392;
     background-color: #646f58;
 
@@ -37,7 +27,7 @@ h1  {
 
 h2 {
     font-size: 4rem;
-    font-family:'Public Sans', sans-serif;
+    font-family:'', sans-serif;
     text-align: left;
     color: #dde392;
     background-color:#646f58;
