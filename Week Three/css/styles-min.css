@@ -1,4 +1,4 @@
-<!--Style Page-->
+<!--stylesheet-->
 
 body{
     font-size: 18px;
@@ -25,7 +25,7 @@ footer{
 header, 
 nav, 
 footer {
-    max-width: 767px:
+    max-width: 767px;
     margin: 0 auto;
 }
 
@@ -68,10 +68,6 @@ article{
 }
 
 
-}
-header, main, footer {
-    /*need to add things to this*/
-}
 
 
 
