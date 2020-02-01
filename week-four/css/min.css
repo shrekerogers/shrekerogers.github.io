@@ -13,7 +13,7 @@ nav button{
 }
 
 nav {
-    background-color: #ccc;
+    background-color: #ccc;  /*this is the spot for changing the button color*/
     font-family: sans-serif;
 }
 
@@ -35,10 +35,17 @@ nav ul li a{
 
 
 
+nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff ;}
+
+nav ul li a:hover{background-color: rgba(0,0,0,0.4);
+}
 
 
 
 
-
-
-
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
