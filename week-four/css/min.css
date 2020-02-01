@@ -51,3 +51,11 @@ nav ul.hide {display:   none;}
     display: table;
     clear: both;
   }
+
+  header{
+      background-color: #555;
+  }
+
+  footer{
+      background-color: forestgreen;
+  }
