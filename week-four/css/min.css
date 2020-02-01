@@ -34,8 +34,10 @@ nav ul li a{
 }
 
 
+/*this chakges the background and text color*/
+nav ul li.active{background-color: rgb(255,255,255);
+padding: 1rem 1rem;}
 
-nav ul li.active a{background-color: rgba(0,0,0,0.2); color: #fff ;}
 
 nav ul li a:hover{background-color: rgba(0,0,0,0.4);
 }
