@@ -8,18 +8,20 @@
     <meta name="description"    content="Main Weather Page For Preston Idaho">
     <link href="/week-four/css/min.css" rel="stylesheet">
     <link href="/week-four/css/mid.css" rel="stylesheet">
+    <link href="/week-four/css/max.css" rel="stylesheet
+  
 
 </head>
 
 
 <body>
     <header>
-        <h1><img src="Images/Logo.png"   alt="Company Logo">Spud Country Meteorology </h1>
+        <h1>Spud Country Meteorology </h1>
     </header>
-    <nav>
-        <button>&#9776</button>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
         <h2>Preston Idaho</h2>
-        <ul>
+        <ul id="primaryNav" class="hide">
             <li class="active"><a href="">Weather Summary</a></li>
             <li><a href="">5 Day Forecast</a></li>
             <li><a href="">Article</a></li>
