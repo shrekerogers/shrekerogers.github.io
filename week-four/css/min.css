@@ -37,7 +37,7 @@ nav ul li a{
 
 
 /*this chakges the background and text color*/
-nav ul li.active{background-color: rgb(255,255,255);
+nav ul li.active{background-color:#AFBE8F;
 padding: 1rem 1rem;}
 
 
@@ -47,12 +47,7 @@ nav ul li a:hover{background-color: rgba(0,0,0,0.4);
 nav ul.hide {display:   none;}
 
 
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 
   header{
       background-color: #646F58; 
@@ -64,11 +59,49 @@ nav ul.hide {display:   none;}
   footer{
       background-color: #DDE392;
       color: #504B3A;
-      padding: 2rem;
-      font-size: 1.6rem .2%;
+      padding: 2rem 2rem;
+      font-size: 1rem;
       border-top: solid #646F58;
       font-family: sans-serif;
+      text-align: center;
 
     
   }
   
+
+  main{
+    background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem 0;
+    
+
+  }
+  section ul{
+    list-style-type:    none;
+    padding: 0;
+    margin: 0;
+    background-color:   rgba(255,255,128,0.1);
+
+}
+
+
+section ul li b{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #DDE392;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+
+
+    
+
+
+    /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
