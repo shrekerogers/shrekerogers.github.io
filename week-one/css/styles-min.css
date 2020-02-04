@@ -17,7 +17,7 @@ footer{
     background-color:  #646f58;
     display: flex;
     flex-flow:  column;
-    align-items:    left;
+    
     justify-content: center;
     padding: 10px;
 }
@@ -42,17 +42,17 @@ h2 {
     font-size: 2.5rem;
     font-family:'Public Sans', sans-serif;
     padding: 0;
-    text-align: left;
-    color: #dde392;
-    border-bottom: black line;
+    text-align: center;
+    color: #41422a;
+   
     margin-left: 2rem;
     
    
 }
 
  nav    {
-    color: #AFBE8F;
-    background-color:  #AFBE8F;
+    color: rgb(23, 32, 2);
+    background-color:  rgb(55, 73, 16);
     text-align: left;
     box-shadow: 0 2px 15px ;
 
@@ -63,12 +63,15 @@ ul{
 	margin: 0;
 	padding: 0;
     overflow: hidden;
-    color:#dde392;
+    color:#f1f3d9;
 
 }
 
+a {
+    color: #f3f7ba;
+}
 footer  {
     text-align: center;
-    color:  #dde392;
-    background-color: #646f58;
+    color:  #f2f89e;
+    background-color: #5c6e48;
 }

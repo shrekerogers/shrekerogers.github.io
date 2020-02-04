@@ -1,0 +1,108 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+nav button{
+    margin: .2rem 2%;
+    background-color:   #AFBE8F ;
+    border: none;
+    font-size: 1.6rem;
+    color:  #DDE392;
+}
+
+nav {
+    background-color:   #DDE392;  /*this is the spot for changing the button color*/
+    font-family: sans-serif;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type:    none;
+    padding:    0;
+    margin: 0;
+    background-color: #AFBE8F;
+
+}
+
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:  #000;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+
+/*this chakges the background and text color*/
+nav ul li.active{background-color:#AFBE8F;
+padding: 1rem 1rem;}
+
+
+nav ul li a:hover{background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {display:   none;}
+
+
+
+
+  header{
+      background-color: #646F58; 
+      color: #DDE392;
+      text-align: center;
+      
+      
+  }
+
+  footer{
+      background-color: #DDE392;
+      color: #504B3A;
+      padding: 2rem 2rem;
+      font-size: 1rem;
+      border-top: solid #646F58;
+      font-family: sans-serif;
+      text-align: center;
+
+    
+  }
+  
+
+  main{
+    background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem 0;
+    
+
+  }
+  section ul{
+    list-style-type:    none;
+    padding: 0;
+    margin: 0;
+    background-color:   rgba(255,255,128,0.1);
+
+}
+
+
+section ul li b{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #DDE392;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+
+
+    
+
+
+    /*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
