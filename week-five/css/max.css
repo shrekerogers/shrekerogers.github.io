@@ -13,6 +13,13 @@
         padding: 0.6rem 1rem;
     }
 
-    nav ul li a{border: none;}
+    nav ul li a{
+    border: none;
+    text-decoration: none;
+    display: auto;
+}
+ 
+
+   
 }   
     /*end large */
