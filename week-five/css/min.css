@@ -101,7 +101,7 @@ nav ul.hide {
 
     }
 
-    .currentweather{
+    /*.currentweather{
         position: abolute;
         top: 50px;
         left: 50px;
@@ -109,7 +109,7 @@ nav ul.hide {
         border: 1px solid #504B3A;
         padding: 5rem;
         box-shadow: 0 0 30px #504B3A;
-        
+
 
     }
 
