@@ -45,7 +45,10 @@ padding: 1rem 1rem;}
 nav ul li a:hover{background-color: rgba(0,0,0,0.4);
 }
 
-nav ul.hide {display:   none;}
+nav ul.hide {
+    display:   none;
+    }
+    
 
 
 
@@ -66,10 +69,8 @@ nav ul.hide {display:   none;}
       border-top: solid #646F58;
       font-family: sans-serif;
       text-align: center;
-
-    
-  }
-  
+    }
+ 
 
   main{
     background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
@@ -78,34 +79,29 @@ nav ul.hide {display:   none;}
     padding: 2rem 0;
     
 
-  }
-  section ul{
-    list-style-type:    none;
-    padding: 0;
-    margin: 0;
-    background-color:   rgba(255,255,128,0.1);
+ 
 
-}
-
-h2{
+    h2{
     text-align: center;
     border-bottom: 1px solid #504B3A;
-} 
-.herodiv {
+    } 
+
+    .herodiv {
     margin: 10px auto;position: relative;
     border: 1px solid #504B3A;
+    }
 
-section ul li b{
+    section ul li b {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
     color: #DDE392;
     border-top: 1px solid rgba(0,0,0,0.5);
-}
+    }
 
-h1, h2, p {margin: 0;}
+    h1, h2, p {margin: 0;}
 
-.stats {
+    .stats {
 	position: absolute;
 	top: 25px;
 	right: 50px;
@@ -114,15 +110,15 @@ h1, h2, p {margin: 0;}
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #111;
 	opacity: .8;
-}
+    }
 
 
-main {max-width:820px;margin:0 auto;}
-h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
+    main {max-width:820px;margin:0 auto;}
+    h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
 
 
 
-}
+
 
 
 
@@ -133,9 +129,12 @@ h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
 
 
   
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
+    }
+
+
+     
