@@ -102,8 +102,19 @@ header{
         box-shadow: 0 0 30px #504B3A;
     }
 
+  .flex {
+      display: flex;
+      flex-direction: row;
+  }
   
-  
+  .col {
+      flex:1 1 100%;
+      border-top: 1px solid #000;
+      border-bottom: 1 px solid #000;
+      border-left: 1px solid #000;
+      background-color: #bed;
+      text-align: center;
+  }
  footer{
       background-color: #DDE392;
       color: #504B3A;
