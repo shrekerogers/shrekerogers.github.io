@@ -101,7 +101,7 @@ nav ul.hide {
 
     }
 
-    /*.currentweather{
+    .currentweather{
         position: abolute;
         top: 50px;
         left: 50px;
@@ -113,7 +113,7 @@ nav ul.hide {
 
     }
 
-    section ul li b {
+    /*section ul li b {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
