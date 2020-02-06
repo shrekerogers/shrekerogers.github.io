@@ -38,8 +38,10 @@ nav ul li a{
 
 
 /*this chakges the background and text color*/
-nav ul li.active{background-color:#AFBE8F;
-padding: 1rem 1rem;}
+nav ul li.active {
+background-color:#AFBE8F;
+padding: 1rem 1rem;
+}
 
 
 nav ul li a:hover{background-color: rgba(0,0,0,0.4);
@@ -53,24 +55,13 @@ nav ul.hide {
 
 
 
-  header{
+header{
       background-color: #646F58; 
       color: #DDE392;
       text-align: center;
       
       
   }
-
-  footer{
-      background-color: #DDE392;
-      color: #504B3A;
-      padding: 2rem 2rem;
-      font-size: 1rem;
-      border-top: solid #646F58;
-      font-family: sans-serif;
-      text-align: center;
-    }
- 
 
   main{
     background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
@@ -79,11 +70,11 @@ nav ul.hide {
     padding: 2rem 0;
   }
 
-    h2 {
-    text-align: center;
-    border-bottom: 1px solid #504B3A;
-    } 
-
+    h2, h3, p {
+        margin: 0;
+    }
+    
+    
     .herodiv {
         margin: 10px auto;
         position: relative;
@@ -110,6 +101,21 @@ nav ul.hide {
         padding: 5rem;
         box-shadow: 0 0 30px #504B3A;
     }
+
+  
+  
+ footer{
+      background-color: #DDE392;
+      color: #504B3A;
+      padding: 2rem 2rem;
+      font-size: 1rem;
+      border-top: solid #646F58;
+      font-family: sans-serif;
+      text-align: center;
+    }
+ 
+
+ 
 
     /*section ul li b {
     display: block;
