@@ -94,7 +94,7 @@ header{
     }
 
     .currentweather {
-        position: center;
+        position: absolute;
         top: 50px;
         left: 50px;
         background: radial-gradient(80,75,58);
