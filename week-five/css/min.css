@@ -94,7 +94,7 @@ header{
     }
 
     .currentweather{
-        position: abolute;
+        position: center;
         top: 50px;
         left: 50px;
         background: radial-gradient(80,75,58);
@@ -110,8 +110,8 @@ header{
   
   .col {
       flex:1 1 100%;
-      border-top: 1px solid #000;
-      border-bottom: 1 px solid #000;
+      border-top: 1px solid #AFBE8F;
+      border-bottom: 1 px solid #AFBE8F;
       border-left: 1px solid #000;
       background-color: #bed;
       text-align: center;
