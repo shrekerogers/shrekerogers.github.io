@@ -4,7 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-nav button{
+nav button {
     margin: .2rem 2%;
     background-color:   #AFBE8F ;
     border: none;
@@ -18,7 +18,7 @@ nav {
     text-align: center;
 }
 
-nav ul{
+nav ul {
     list-style-type:    none;
     padding:    0;
     margin: 0;
@@ -27,7 +27,7 @@ nav ul{
 }
 
 
-nav ul li a{
+nav ul li a {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
@@ -44,7 +44,8 @@ padding: 1rem 1rem;
 }
 
 
-nav ul li a:hover{background-color: rgba(0,0,0,0.4);
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
 }
 
 nav ul.hide {
