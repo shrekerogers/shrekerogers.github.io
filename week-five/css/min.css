@@ -101,7 +101,7 @@ header{
         background: radial-gradient(80,75,58);
         border: 1px solid #504B3A;
         padding: 5rem;
-        box-shadow: 30px 0 0 #504B3A;
+        box-shadow: none;
     }
 
   .flex {
