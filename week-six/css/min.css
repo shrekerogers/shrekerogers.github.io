@@ -79,7 +79,6 @@ header{
     .herodiv {
         margin: 10px auto;
         position: relative;
-        text-decoration: ;
         border: 1px dashed #504B3A;
         width: 960px;
         height: 300px;
@@ -99,6 +98,7 @@ header{
         position: abolute;
         top: 50px;
         left: 50px;
+        color: aqua;
         background: radial-gradient(80,75,58);
         border: 1px solid #504B3A;
         padding: 5rem;
