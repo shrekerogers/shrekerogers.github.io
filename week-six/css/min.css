@@ -79,6 +79,7 @@ header{
     .herodiv {
         margin: 10px auto;
         position: relative;
+        text-decoration: ;
         border: 1px dashed #504B3A;
         width: 960px;
         height: 300px;
@@ -90,6 +91,7 @@ header{
         border: 1px dashed #504B3A;
         width: 25%;
         height: 150px;
+        text-decoration: aquamarine;
 
     }
 
