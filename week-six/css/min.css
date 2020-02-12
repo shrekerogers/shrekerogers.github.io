@@ -103,7 +103,8 @@ header{
         border: 1px solid #504B3A;
         padding: 5rem;
         box-shadow: 0 0 30px #504B3A;
-        text-decoration: aliceblue;
+        color: #bed;
+       
     }
 
   .flex {
