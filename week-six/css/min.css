@@ -98,7 +98,7 @@ header{
         position: abolute;
         top: 50px;
         left: 50px;
-        color: rgb(171, 171, 207));
+        color: rgb(171, 171, 207);
         background: radial-gradient(80,75,58);
         border: 1px solid #504B3A;
         padding: 5rem;
@@ -117,7 +117,7 @@ header{
       border-top: 1px solid #000;
       border-bottom: 1 px solid #000;
       border-left: 1px solid #000;
-      background-color: #bed;
+      background-color: #646F58;
       text-align: center;
   }
 
