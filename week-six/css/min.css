@@ -122,8 +122,15 @@ header{
   }
 
 
+  .founders-day{
+    display: wrap;
+  }
   img{
-      float: left;
+    float: left;
+  }
+  .fresco{
+      display: wrap;
+
   }
 
   
