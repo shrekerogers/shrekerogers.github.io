@@ -122,6 +122,15 @@ header{
   }
 
 
+  .founders-day{
+    display: wrap;
+  }
+
+  .fresco{
+      display: wrap;
+
+  }
+
   
  footer{
       background-color: #DDE392;
