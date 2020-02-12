@@ -121,18 +121,14 @@ header{
       text-align: center;
   }
 
-
-  .founders-day{
-    display: wrap;
-  }
-  img{
-    float: left;
-  }
-  .fresco{
-      display: wrap;
-
-  }
-
+ .founders{
+     float: left;
+ }
+  
+ .fresco{
+     float: left;
+ }
+  
   
  footer{
       background-color: #DDE392;
