@@ -44,7 +44,8 @@ padding: 1rem 1rem;
 }
 
 
-nav ul li a:hover{background-color: rgba(0,0,0,0.4);
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.4);
 }
 
 nav ul.hide {
@@ -79,7 +80,7 @@ header{
     .herodiv {
         margin: 10px auto;
         position: relative;
-        border: 1px dashed #504B3A;
+        border: 1px  #504B3A;
         width: 960px;
         height: 400px;
     }
@@ -87,7 +88,7 @@ header{
     .hero-ph{
         margin: 10px auto;
         position: relative;
-        border: 1px dashed #504B3A;
+        border: 1px  #504B3A;
         width: 25%;
         height: 150%;
 
@@ -98,9 +99,7 @@ header{
         position: absolute;
         top: 50px;
         left: 50px;
-        color: rgb(247, 231, 0);
-        border-color: rgb(252, 214, 2);
-        background: radial-gradient(80,75,58);
+        color: rgb(251, 255, 0);
         border: 1px solid #504B3A;
         padding: 5rem;
         box-shadow: 0 0 30px #504B3A;
@@ -141,42 +140,6 @@ header{
       font-family: sans-serif;
       text-align: center;
     }
- 
-
- 
-
-    /*section ul li b {
-    display: block;
-    padding: .8rem 2%;
-    text-decoration: none;
-    color: #DDE392;
-    border-top: 1px solid rgba(0,0,0,0.5);
-    }
-
-   /* h1, h2, p {margin: 0;}
-
-    .stats {
-	position: absolute;
-	top: 25px;
-	right: 50px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #111;
-	opacity: .8;
-    }
-
-
-    main {max-width:820px;margin:0 auto;}
-    h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
-
-
-
-
-
-
-
-
 
 
     
