@@ -81,7 +81,7 @@ header{
         position: relative;
         border: 1px dashed #504B3A;
         width: 960px;
-        height: 300px;
+        height: 400px;
     }
 
     .hero-ph{
@@ -95,10 +95,11 @@ header{
     }
 
     .currentweather{
-        position: abolute;
+        position: absolute;
         top: 50px;
         left: 50px;
-        color: rgb(171, 171, 207);
+        color: rgb(247, 231, 0);
+        border-color: rgb(252, 214, 2);
         background: radial-gradient(80,75,58);
         border: 1px solid #504B3A;
         padding: 5rem;
@@ -114,6 +115,7 @@ header{
   
   .col {
       flex:1 1 100%;
+      color: rgb(247, 222, 0);
       border-top: 1px solid #000;
       border-bottom: 1px solid #000;
       border-left: 1px solid #000;
