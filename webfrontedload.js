@@ -1,7 +1,1 @@
-WebFont.load({
-    google: {
-      families: [
-         'sans-serif'
-      ]
-    }
-  });
+WebFont.load({google: {families: ['sans-serif']}});
