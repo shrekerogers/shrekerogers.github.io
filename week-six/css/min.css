@@ -99,7 +99,8 @@ header{
         position: absolute;
         top: 50px;
         left: 50px;
-        color: rgb(251, 255, 0);
+        color: rgb(252, 252, 252);
+        background-color:transparent #646F58;
         border: 1px solid #504B3A;
         padding: 5rem;
         box-shadow: 0 0 30px #504B3A;
