@@ -71,6 +71,8 @@ header{
     padding: 2rem 0;
   }
 
+  
+
     h2, h3, p {
         margin: 0;
         text-align: center;
@@ -123,15 +125,30 @@ header{
       text-align: center;
   }
 
- .founders{
-     float: left;
- }
   
- .fresco{
-     float: left;
- }
-  
-  
+  main figure.businesswomenicon {
+    width: 20%;
+    height: 20%;
+    margin: 0 0 0 2%;
+    float: left;
+    
+
+    }
+
+    main figure.businesswomenicon img {
+    width: 100%;
+    }
+
+    main figure.businesswomenicon figcaption {
+        text-align: center;
+        font-size: 0.75rem;
+       
+    }
+
+    .contactinfo{
+        padding-top:;
+    }
+    
  footer{
       background-color: #DDE392;
       color: #504B3A;
