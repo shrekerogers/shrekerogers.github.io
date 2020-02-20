@@ -4,7 +4,7 @@ body{
     font-size: 18px;
     line-height: 1.5em;
     font-family:    'Open! Sans', sans-serif;
-    color: black;
+    color: #ccf0a7;
     padding-bottom: 1rem;
     margin: auto;
 }
@@ -23,9 +23,10 @@ header, footer{
 .grid1 {
     display: grid;
     grid-gap: 20px;
-    border: 10px solid #646f58;
+    border: 10px solid #ccf0a7;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 400px 400px 400px;
+    color: #ccf0a7;
     
     
 }
