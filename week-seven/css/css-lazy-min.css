@@ -1,14 +1,24 @@
 
 
-header{
-    background-color: #646F58;
-    text-align: center;
-
-}
 body{
-    background-color: #646F58;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family:    'Open! Sans', sans-serif;
+    color: black;
+    padding-bottom: 1rem;
+    margin: auto;
 }
 
+
+header, footer{
+    font-family:  'Oswald', sans-serif;
+    background-color:  #646f58;
+    display: flex;
+    flex-flow:  column;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
 
 .grid1 {
     display: grid;
