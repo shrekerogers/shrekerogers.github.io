@@ -22,8 +22,10 @@ header, footer{
 
 .grid1 {
     display: grid;
+    grid-gap: 20px;
+    border: 10px solid #646f58;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 400px 400px 400px;
-    grid-gap: 10px;
-    margin-left: 10px;
+    
+    
 }
