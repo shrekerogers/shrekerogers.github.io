@@ -1,0 +1,28 @@
+body{
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family:    'Open! Sans', sans-serif;
+    color: #ccf0a7;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+
+header, footer{
+    font-family:  'Oswald', sans-serif;
+    background-color:  #646f58;
+    display: flex;
+    flex-flow:  column;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid1 {
+    display: grid;
+    grid-gap: 20px;
+    border: 10px solid #ccf0a7;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px;
+    background-color: #ccf0a7;
+}
