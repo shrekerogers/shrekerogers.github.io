@@ -2,7 +2,7 @@ body{
     font-size: 18px;
     line-height: 1.5em;
     font-family:    'Open! Sans', sans-serif;
-    color: #ccf0a7;
+    background-color: #ccf0a7;
     padding-bottom: 1rem;
     margin: auto;
 }
@@ -11,6 +11,7 @@ body{
 header, footer{
     font-family:  'Oswald', sans-serif;
     background-color:  #646f58;
+    color: #ccf0a7;
     display: flex;
     flex-flow:  column;
     justify-content: center;
