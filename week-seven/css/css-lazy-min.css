@@ -1,4 +1,4 @@
-
+<!--lazy load-->
 
 body{
     font-size: 18px;
@@ -26,5 +26,5 @@ header, footer{
     border: 10px solid #ccf0a7;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 400px 400px 400px;
-    color: #ccf0a7;
+    background-color: #ccf0a7;
 }
