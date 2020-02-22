@@ -8,7 +8,7 @@ body{
 }
 
 
-header, footer{
+header {
     font-family:  'Oswald', sans-serif;
     background-color:  #646f58;
     color: #ccf0a7;
@@ -27,3 +27,4 @@ header, footer{
     grid-template-rows: 400px 400px 400px;
     background-color: #ccf0a7;
 }
+
