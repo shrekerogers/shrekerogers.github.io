@@ -9,7 +9,7 @@ body{
 }
 
 
-header {
+header, footer {
     font-family:  'Oswald', sans-serif;
     background-color:  #58614e;
     color: #ccf0a7;
@@ -27,13 +27,5 @@ header {
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 400px 400px 400px;
     background-color: #748b5f;
-}
-.gallery{
-    display: grid;
-    grid-gap: 20px;
-    border: 10px solid #8d9e7e;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 400px 400px 400px;
-    background-color: #d1e0c2;
 }
 
