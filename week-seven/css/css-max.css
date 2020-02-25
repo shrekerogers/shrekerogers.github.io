@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+	.rt-container {
+		width: 1170px;
+	}
+	.col-rt-1 {
+		width:16.6%;
+	}
+	.col-rt-2 {
+		width:30.33%;
+	}
+	.col-rt-3 {
+		width:50%;
+	}
+	.col-rt-4 {
+		width: 67.664%;
+	}
+	.col-rt-5 {
+		width: 83.33%;
+	}
+	
+
+}
+

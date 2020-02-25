@@ -1,0 +1,36 @@
+/*The Input Form*/
+label {
+       display: block;
+       font: 1rem 'Fira Sans', sans-serif;
+   }
+   
+   input,
+   label {
+       margin: .4rem 0;
+   }
+   
+
+   Client Side Validation
+   input:invalid {
+       border: 2px dashed red;
+     }
+     
+     input:valid {
+       border: 2px solid black;
+     }
+   
+     input:invalid {
+       border: 2px dashed red;
+     }
+     
+     input:invalid:required {
+       background-image: linear-gradient(to right, pink, lightgreen);
+     }
+     
+     input:valid {
+       border: 2px solid black;
+     }
+
+
+
+     

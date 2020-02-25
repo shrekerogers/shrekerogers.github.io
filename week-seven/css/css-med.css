@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+    .rt-container {
+      width: 750px;
+    }
+    [class^="col-rt-"] {
+      float: left;
+      width: 49.9999999999%;
+    }
+    .col-rt-6, .col-rt-12 {
+      width: 100%;
+    }
+    
+  }
+  @media only screen and (min-width:240px) and (max-width: 768px){
+    .ScriptTop h1, .ScriptTop ul {
+       text-align: center;
+   }
+   .ScriptTop h1{
+       margin-top:0;
+       margin-bottom:15px;
+   }
+   .ScriptTop ul{
+        margin-top:12px;		
+   }
+   
+   .ScriptHeader h1,
+   .ScriptHeader h2, 
+   .scriptnav ul{
+       text-align:center;	
+   }
+   .scriptnav ul{
+        margin-top:12px;		
+   }
+   #float-right{
+       float:none;	
+   }
+   
+}
+

@@ -18,14 +18,37 @@ header, footer {
     justify-content: center;
     padding: 10px;
     text-align: center;
-}*/
-
-.grid1 {
-    display: grid;
-    grid-gap: 20px;
-    border: 10px solid #748b5f;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 400px 400px 400px;
-    background-color: #748b5f;
 }
 
+@media screen and (min-device-width:698px) {
+    div#showgrid {
+      width: 698px;
+      margin: auto;
+    }
+  }
+  
+  div.column {
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .row {
+    width: 100%;
+    margin: auto;
+  
+  }
+  
+  @media (min-device-width: 698px) {
+    .column {
+      width: 230px;
+      height: 230px;
+      display: inline;
+      float: left;
+    }
+  }
+  
+  .column {
+    width: 230px;
+    height: 230px;
+    margin: auto;
+  }
