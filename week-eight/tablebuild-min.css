@@ -1,0 +1,59 @@
+/* typography */
+
+caption{
+  background-color: #7fb9c2;;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+ 
+table, th, td {
+      border: 1px solid;
+      border-collapse: collapse;
+  }
+ th { 
+   letter-spacing: 2px;
+   background-color: #628ca6;
+ }
+
+  td.row1{
+    background-color: #e7f0ed; 
+  }
+
+  td.row2{
+    background-color:  #e7ffed;
+  }
+
+  td.row3{
+    background-color: #e7f0ed;
+    }
+
+ td.row4{
+     background-color:  #e7ffed;
+     }
+     
+ td.row4-1{
+   background-color: #628ca6; 
+ }
+
+ td.row5{
+   background-color:   #e7f0ed; 
+
+ }  
+ td.row6{
+   background-color:  #e7ffed; 
+ } 
+     
+ 
+ td {
+   letter-spacing: 1px;
+ }
+ 
+ tbody td {
+   text-align: center;
+ }
+ 
+ td.footer{
+   text-align: center;
+   background-color: #7fb9c2;
+ 
+}
