@@ -35,15 +35,10 @@ table, th, td {
    background-color: #628ca6; 
  }
 
- td.row5{
+ tr.row5{
    background-color:   #e7f0ed; 
 
  }  
-
- td.row5-a{
-   column-span: 2;
-   background-color:   #e7f0ed; 
- }
 
  td.row6{
    background-color:  #e7ffed; 
@@ -58,9 +53,8 @@ table, th, td {
    text-align: center;
  }
  
- td.footer{
-   column-count: 3;
-   column-span: 2;
+ tfoot.footer{
+   column-span: all;
    background-color: #7fb9c2;
  
 }
