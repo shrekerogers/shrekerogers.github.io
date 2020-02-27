@@ -31,7 +31,7 @@ table, th, td {
      background-color:  #e7ffed;
      }
      
- td.row41{
+ td.row4-a{
    background-color: #628ca6; 
  }
 
@@ -39,6 +39,12 @@ table, th, td {
    background-color:   #e7f0ed; 
 
  }  
+
+ td.row5-a{
+   column-span: 2;
+   background-color:   #e7f0ed; 
+ }
+
  td.row6{
    background-color:  #e7ffed; 
  } 
@@ -53,7 +59,8 @@ table, th, td {
  }
  
  td.footer{
-   text-align: center;
+   column-count: 3;
+   column-span: 2;
    background-color: #7fb9c2;
  
 }
