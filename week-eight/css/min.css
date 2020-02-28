@@ -1,6 +1,5 @@
 
-
-header {
+body, h1 {
     background-color: #646F58;
 }
 
@@ -21,4 +20,5 @@ label {
     border: 2px solid black;
   }
 
+ 
   
