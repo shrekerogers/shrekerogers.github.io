@@ -1,1 +1,1 @@
-WebFont.load({google: {families: ['ubunto', san-serif]}});
+WebFont.load({google: {families: ['ubunto']}});
