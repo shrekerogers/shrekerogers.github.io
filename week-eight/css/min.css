@@ -78,7 +78,9 @@ header{
 
     
 
-
+  a {
+    color: #f3f7ba;
+}
   
  footer{
       background-color: #DDE392;
