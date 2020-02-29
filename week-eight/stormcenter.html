@@ -22,7 +22,7 @@
 
     <div>
         <label for="name">Please Enter First and Last Name:</label>
-        <input type="text" id="name" name="name"   minlength="4" maxlength="20" size="10">
+        <input type="text" id="name" name="name"   minlength="4" maxlength="20" size="10" placeholder="John Doe">
     </div>
 
     <div>
@@ -37,7 +37,7 @@
 
     <div>
         <label for="name">What is your Zipcode</label>
-        <input type="number" id="number" name="number"   minlength="4" maxlength="12" size="10">
+        <input type="number" id="number" name="number"   minlength="4" maxlength="12" size="10" placeholder="83713">
     </div>
 
     <div>
@@ -46,33 +46,31 @@
     </div>
 
     <div>
-        <label for="number">How bad is the storm on a 1 to 10 number scale? Ten Is the worst you have seen.</label>
+        <label for="number">How bad is the storm on a 1 to 10 number scale? Ten Is the worst you have seen/expereienced.</label>
         <input type="number" id="number" name="amount" value="1" min="1" max="10">
     </div>
-
     <div>
-        <label for="t1">What Region Was The Storm?</label>
-        <input type="text" id="t1" name="town" list="l1">
-        <datalist id="l1">
+        <label for="region">What Region Was The Storm?</label>
+        <select id="region" id="t2" name="danger"> 
             <option>Preston</option>
             <option>Soda Springs</option>
             <option>Fish Haven</option>
-        </datalist>
+        </select>
+    </div>
 
+    
+    <div>
+        <p>Were You In Danger?</p>
+        <input type="radio" id="Yes" name="danger" value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="Maybe" name="danger" value="Maybe">
+        <label for="Maybe">Maybe</label><br>
+        <input type="radio" id="No" name="danger" value="No">
+        <label for="No">No</label><br>
     </div>
 
     <div>
-        <label for="t2">Were You In Danger?</label>
-        <input type="text" id="t2" name="danger" list="l2"> 
-        <datalist id="l2">
-            <option>Yes</option>
-            <option>Maybe</option>
-            <option>No</option>
-        </datalist>
-    </div>
-
-    <div>
-        <label for="textarea"><span>Is there anything else about the storm?<span class="required"></span></span><textarea name="field9" class="textarea-field"></textarea></label>
+        <label for="textarea"><span>Storm Comments?<span class="required"></span></span><textarea name="field9" class="textarea-field" placeholder="Is there anything else important that needs to be known about the storm?"></textarea></label>
     </div>
 
 
