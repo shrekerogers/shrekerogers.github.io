@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
+<meta name="author" content="Eric T. Rogers">
 
 <!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
+<title>Storm Center</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -29,8 +29,8 @@
 <body>
 <!-- HEADER HERE -->
 	<header>
- <h1>Course Proposal</h1>
-        <h2>Designing Web Forms</h2>
+ <h1>Spud Country Meteorology</h1>
+        <h2>Storm Reporting Center</h2>
     </header>
     
     
@@ -47,71 +47,73 @@
     
 <!-- CONTENT HERE -->
 <main>
-    <h1>Course Proposal Application</h1>
-        <form method="get" action=""
-        
-        <form>
+    <h1>Storm Center Reporting Application</h1>
+    <form method="get" action="/week-eight/stormcenter-thanks.html">
 
-            <div>
-                <label for="name">Please Enter First and Last Name:</label>
-                <input type="text" id="name" name="name"   minlength="4" maxlength="20" size="10" placeholder="John Doe">
-            </div>
+        <fieldset>
+            <legend>Storm Report Applicant Info</legend>
+            <label for="name">Please Enter First and Last Name:*</label>
+            <input type="text" id="name" name="name"   minlength="4" maxlength="20" size="10" placeholder="John Doe"><br>
         
-            <div>
-                <label for="email">What is your email address</label>
-                <input type="text" id="email" name="email"   minlength="4" maxlength="30" size="30" placeholder="toocool@gmail.com">
-            </div>
+            <label for="email">What is your email address</label>
+            <input type="text" id="email" name="email"   minlength="4" maxlength="30" size="30" placeholder="toocool@gmail.com"><br>
         
-            <div>
-                <label for="tel">What is your phone number?</label>
-                <input type="number" id="number" name="number"   minlength="4" maxlength="10" size="9" placeholder="(888)-888-8888">
-            </div>
+    
         
-            <div>
-                <label for="name">What is your Zipcode</label>
-                <input type="number" id="number" name="number"   minlength="4" maxlength="12" size="10" placeholder="83713">
-            </div>
+            <label for="phone">What is your phone number?*</label><br>
+            <input type="tel" id="phone" name="phone"  placeholder="(888)-888-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <small>Format: (208)-888-8888</small>
         
-            <div>
-                <label for="name">Date of Storm</label>
-                <input type="date" id="date" name="date"   minlength="4" maxlength="12" size="10">
-            </div>
+    
         
-            <div>
-                <label for="number">How bad is the storm on a 1 to 10 number scale? Ten Is the worst you have seen/expereienced.</label>
-                <input type="number" id="number" name="amount" value="1" min="1" max="10">
-            </div>
-            <div>
-                <label for="region">What Region Was The Storm?</label>
-                <select id="region" id="t2" name="danger"> 
-                    <option>Preston</option>
-                    <option>Soda Springs</option>
-                    <option>Fish Haven</option>
-                </select>
-            </div>
+            <label for="name">What is your Zipcode</label>
+            <input type="number" id="number" name="number"   minlength="4" maxlength="12" size="10" placeholder="83713">
+        </fieldset>
+    
+    
+        <fieldset>
+            <legend>Storm Info</legend>  
+            <label for="name">Date of Storm</label>
+            <input type="date" id="date" name="date"   minlength="4" maxlength="12" size="10">
         
+        
+            <label for="stormtype">What Type of Weather Was expereienced?</label>
             
-            <div>
-                <p>Were You In Danger?</p>
-                <input type="radio" id="Yes" name="danger" value="Yes">
-                <label for="Yes">Yes</label><br>
-                <input type="radio" id="Maybe" name="danger" value="Maybe">
-                <label for="Maybe">Maybe</label><br>
-                <input type="radio" id="No" name="danger" value="No">
-                <label for="No">No</label><br>
-            </div>
-        
-            <div>
-                <label for="textarea"><span>Storm Comments?<span class="required"></span></span><textarea name="field9" class="textarea-field" placeholder="Is there anything else important that needs to be known about the storm?"></textarea></label>
-            </div>
+            <input type="text" id="name" name="name" minlength="4" maxlength="20" size="45" placeholder="Flash Flood, Hail, Hurricane, Thunderstorm, Tornado" requiered><br>
         
         
-            <div>
-                <button>Kindly press to submit your storm report</button>
-            </div>
-        </form>
-          
+            <label for="number">How bad is the storm on a 1 to 10 number scale? Ten Is the worst you have seen/expereienced.</label>
+            <input type="number" id="number" name="amount" value="1" min="1" max="10">
         
+        
+            <label for="region">What Region Was The Storm?</label>
+            <select id="region" id="t2" name="danger"> 
+                <option>Preston</option>
+                <option>Soda Springs</option>
+                <option>Fish Haven</option>
+            </select>
+        
+        
+            <p>Were You In Danger? <em>Please Chose One</em></p>
+            <input type="radio" id="Yes" name="danger" value="Yes">
+            <label for="Yes">Yes</label><br>
+            <input type="radio" id="Maybe" name="danger" value="Maybe">
+            <label for="Maybe">Maybe</label><br>
+            <input type="radio" id="No" name="danger" value="No">
+            <label for="No">No</label><br><br>
+        
+    
+        
+            <label for="textarea"><span>Storm Comments?<span class="required"></span></span><textarea name="field9" class="textarea-field" placeholder="Is there anything else important that needs to be known about the storm?"></textarea></label><br><br>
+        </fieldset>
+            
+        
+        
+     <input type= "submit" value="Storm Report Submission">
+    
+        
+    
+    </form>
     </main>
     
 <!-- FOOTER HERE -->   

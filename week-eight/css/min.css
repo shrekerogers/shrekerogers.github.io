@@ -1,24 +1,102 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-body, h1 {
-    background-color: #646F58;
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+
+
+/*----------- NAVIGATION --------------*/
+nav button {
+    margin: .2rem 2%;
+    background-color:   #AFBE8F ;
+    border: none;
+    font-size: 1.6rem;
+    color:  #DDE392;
 }
 
-/*The Input Form*/
-label {
+nav {
+    background-color:   #DDE392;  /*this is the spot for changing the button color*/
+    font-family: sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type:    none;
+    padding:    0;
+    margin: 0;
+    background-color: #AFBE8F;
+
+}
+
+
+nav ul li a {
     display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color:  #000;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    text-align: center;
 }
 
-input,
-label {
-    margin: .4rem 0;
+
+/*this chakges the background and text color*/
+nav ul li.active {
+background-color:#AFBE8F;
+padding: 1rem 1rem;
 }
 
 
-/*Client Side Validation*/
-  input:valid {
-    border: 2px solid black;
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {
+    display:   none; 
+}
+    
+
+
+
+
+header{
+      background-color: #646F58; 
+      color: #DDE392;
+      text-align: center;
+      
+      
   }
 
- 
+  main{
+    background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
+    font-family: sans-serif;
+    text-align: left;
+    padding: 2rem 0;
+  }
+
+    
+
+
   
+ footer{
+      background-color: #DDE392;
+      color: #504B3A;
+      padding: 2rem 2rem;
+      font-size: 1rem;
+      border-top: solid #646F58;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+
+   /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+
+     
