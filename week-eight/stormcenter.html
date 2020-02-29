@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
-
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/week-five/images/favicon.ico">
@@ -49,7 +48,7 @@
                 <input type="text" id="name" name="name"   minlength="4" maxlength="20" size="10" placeholder="John Doe"><br>
             
                 <label for="email">What is your email address</label>
-                <input type="text" id="email" name="email"   minlength="4" maxlength="30" size="30" placeholder="toocool@gmail.com"><br>
+                <input type="text" id="email" name="email"    size="30" placeholder="toocool@gmail.com"><br>
             
         
             
@@ -60,27 +59,26 @@
         
             
                 <label for="name">What is your Zipcode</label>
-                <input type="number" id="number" name="number"   minlength="4" maxlength="12" size="10" placeholder="83713">
+                <input type="number" id="number" name="number"      placeholder="83713">
             </fieldset>
         
         
             <fieldset>
                 <legend>Storm Info</legend>  
                 <label for="name">Date of Storm</label>
-                <input type="date" id="date" name="date"   minlength="4" maxlength="12" size="10">
+                <input type="date" id="date" name="date">
             
             
                 <label for="stormtype">What Type of Weather Was expereienced?</label>
-                
-                <input type="text" id="name" name="name" minlength="4" maxlength="20" size="45" placeholder="Flash Flood, Hail, Hurricane, Thunderstorm, Tornado" requiered><br>
+                <input type="text"  id="stormtype" name="stormtype" minlength="4" maxlength="20" size="45" placeholder="Flash Flood, Hail, Hurricane, Thunderstorm, Tornado"><br>
             
             
                 <label for="number">How bad is the storm on a 1 to 10 number scale? Ten Is the worst you have seen/expereienced.</label>
-                <input type="number" id="number" name="amount" value="1" min="1" max="10">
+                <input type="number"  name="amount" value="1" min="1" max="10">
             
             
                 <label for="region">What Region Was The Storm?</label>
-                <select id="region" id="t2" name="danger"> 
+                <select id="region" name="danger"> 
                     <option>Preston</option>
                     <option>Soda Springs</option>
                     <option>Fish Haven</option>
@@ -97,7 +95,9 @@
             
         
             
-                <label for="textarea"><span>Storm Comments?<span class="required"></span></span><textarea name="field9" class="textarea-field" placeholder="Is there anything else important that needs to be known about the storm?"></textarea></label><br><br>
+                <label for="stormcomments" ></label>
+                <textarea id="stormcomments" name="stormcomments">Is there anything else important that needs to be known about the storm?
+                </textarea><br><br>
             </fieldset>
                 
             
@@ -109,9 +109,10 @@
         </form>
         </main>
 
-<footer>&#169; 2020 | Eric T. Rogers | Idaho | <a href=" https://www.byui.edu/online">BYUI Online Learning</a></footer>  
+<footer>&#169;2020 | Eric T. Rogers | Idaho | <a href=" https://www.byui.edu/online">BYUI Online Learning</a></footer>  
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
 </script>
 <script src="/week-eight/java/webload.js"></script>
+
 </body>
 </html>
