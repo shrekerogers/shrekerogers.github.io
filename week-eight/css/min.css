@@ -83,12 +83,10 @@ header{
 }
   
  footer{
-      background-color: #DDE392;
-      color: #504B3A;
+      background-color: #5c6e48;
+      color: #f2f89e;
       padding: 2rem 2rem;
       font-size: 1rem;
-      border-top: solid #646F58;
-      border-bottom: solid #646F58;
       font-family: sans-serif;
       text-align: center;
     }
