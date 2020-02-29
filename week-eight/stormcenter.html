@@ -44,8 +44,8 @@
     
             <fieldset>
                 <legend>Storm Report Applicant Info</legend>
-                <label for="name">Please Enter First and Last Name:*</label>
-                <input type="text" id="name" name="name"   minlength="4" maxlength="20" size="10" placeholder="John Doe"><br>
+                <label for="firstandlastname">Please Enter First & Last Name:*</label>
+                <input type="text" id="firstandlastname" name="firstandlastname"   minlength="4" maxlength="20" size="10" placeholder="John Doe"><br>
             
                 <label for="email">What is your email address</label>
                 <input type="text" id="email" name="email"    size="30" placeholder="toocool@gmail.com"><br>
@@ -65,8 +65,8 @@
         
             <fieldset>
                 <legend>Storm Info</legend>  
-                <label for="name">Date of Storm</label>
-                <input type="date" id="date" name="date">
+                <label for="dateofstorm">Date of Storm</label>
+                <input type="date" name="dateofstorm" id="dateofstorm">
             
             
                 <label for="stormtype">What Type of Weather Was expereienced?</label>
@@ -74,11 +74,11 @@
             
             
                 <label for="number">How bad is the storm on a 1 to 10 number scale? Ten Is the worst you have seen/expereienced.</label>
-                <input type="number"  name="amount" value="1" min="1" max="10">
+                <input type="text"  id="number" name="number" value="1" min="1" max="10"><br><br>
             
             
-                <label for="region">What Region Was The Storm?</label>
-                <select id="region" name="danger"> 
+                <label for="regionofstorm">What Region Was The Storm?</label>
+                <select id="regionofstorm" name="regionofstorm"> 
                     <option>Preston</option>
                     <option>Soda Springs</option>
                     <option>Fish Haven</option>
@@ -95,7 +95,7 @@
             
         
             
-                <label for="stormcomments" ></label>
+                <label for="stormcomments">Comments About the Storm</label>
                 <textarea id="stormcomments" name="stormcomments">Is there anything else important that needs to be known about the storm?
                 </textarea><br><br>
             </fieldset>
