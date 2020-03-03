@@ -1,10 +1,8 @@
 /* typography */
 
-html {
-    font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  }
+
   
-  thead th, tfoot th {
+  html, thead th, tfoot th {
     font-family: 'ubunto', sans-serif;
   }
   

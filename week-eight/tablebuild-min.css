@@ -1,58 +1,52 @@
 /* typography */
 
+  
+
+html, thead th, tfoot th {
+  font-family: 'ubunto', sans-serif;
+  border: 1px solid black;
+  text-align: center;
+}
 caption{
   background-color: #7fb9c2;;
   border: 1px solid;
   border-collapse: collapse;
+  font-weight: bold;
+  font-size: x-large;
 }
  
-table, th, td {
-      border: 1px solid;
-      border-collapse: collapse;
-  }
- th { 
+table th{
+   border-collapse: collapse;
+   color: white;
    letter-spacing: 2px;
    background-color: #628ca6;
+   text-emphasis: bold;
+   text-align: center;
+   
+ 
  }
 
-  td.row1{
+ table, th, td{
+   border: 1px solid black;
+   border-collapse: collapse
+ }
+  table#t01 tr:nth-child(odd){
     background-color: #e7f0ed; 
   }
 
-  td.row2{
-    background-color:  #e7ffed;
+  table#t01 tr:nth-child(even){
+    background-color: #e7ffed; 
   }
 
-  td.row3{
-    background-color: #e7f0ed;
-    }
+  td.goal{
+    background-color: #628ca6;
+    color: white;
+  }
 
- td.row4{
-     background-color:  #e7ffed;
-     }
-     
- td.row4-a{
-   background-color: #628ca6; 
- }
-
- tr.row5{
-   background-color:   #e7f0ed; 
-
- }  
-
- td.row6{
-   background-color:  #e7ffed; 
- } 
-     
- 
- td {
-   letter-spacing: 1px;
- }
- 
- tbody td {
-   text-align: center;
- }
- 
+  td.special{
+    font-style: italic;
+  }
+  
  tfoot.footer{
    column-span: all;
    background-color: #7fb9c2;
