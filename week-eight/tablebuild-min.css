@@ -2,9 +2,8 @@
 
   
 
-html, thead th, tfoot th {
+html, thead th, tfoot th, tr, td, caption {
   font-family: 'ubunto', sans-serif;
-  border: 1px solid black;
   text-align: center;
 }
 caption{
@@ -47,7 +46,7 @@ table th{
     font-style: italic;
   }
   
- tfoot.footer{
+ tfoot{
    column-span: all;
    background-color: #7fb9c2;
  
