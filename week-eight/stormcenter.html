@@ -44,22 +44,22 @@
     
             <fieldset>
                 <legend>Storm Report Applicant Info</legend>
-                <label for="firstandlastname">Please Enter First & Last Name:*</label>
-                <input type="text" id="firstandlastname" name="firstandlastname"   minlength="4" maxlength="20" size="10" placeholder="John Doe"><br>
+                <label for="firstandlastname">Please Enter First & Last Name.</label>
+                <input type="text" id="firstandlastname" name="firstandlastname"   minlength="4" maxlength="20" size="10" placeholder="John Doe" required><br>
             
                 <label for="email">What is your email address</label>
                 <input type="text" id="email" name="email"    size="30" placeholder="toocool@gmail.com"><br><br>
             
         
             
-                <label for="phone">What is your phone number?*</label><br>
-                <input type="tel" id="phone" name="phone"  placeholder="(888)-888-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <label for="phone">What is your phone number?</label><br>
+                <input type="tel" id="phone" name="phone"  placeholder="(888)-888-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                 <small>Format: (208)-888-8888</small><br>
             
         
             
-                <label for="name">What is your Zipcode</label>
-                <input type="number" id="name" name="name"      placeholder="83713">
+                <label for="name">What is your Zipcode?</label>
+                <input type="number" id="name" name="name"      placeholder="83713" required>
 
             </fieldset>
         
@@ -71,7 +71,13 @@
             
             
                 <label for="stormtype">What Type of Weather Was expereienced?</label>
-                <input type="text"  id="stormtype" name="stormtype" minlength="4" maxlength="20" size="45" placeholder="Flash Flood, Hail, Hurricane, Thunderstorm, Tornado"><br>
+                <select id="stormtype"  id="stormtype" name="stormtype" >
+                    <option>Flash Flood</option>
+                    <option> Hail</option><br>
+                    <option>Hurricane</option>
+                    <option>Thunderstorm</option>
+                    <option>Tornado</option>
+                </select>
             
             
                 <label for="stormlevel">How bad is the storm on a 1 to 10 number scale? Ten Is the worst you have seen/expereienced.</label>
