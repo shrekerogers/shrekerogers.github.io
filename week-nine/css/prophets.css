@@ -8,10 +8,43 @@ header, main, footer{
 }
 
 
+h1{
+    margin: 5px;
+    border: 1px solid black;
+    padding: 15px;
+    color: #f3f7ba
+}
 
 
+header{
+    background-color: #646F58; 
+    color: #DDE392;
+    text-align: center;
+    
+    
+}
 
+main{
+  background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
+  font-family: sans-serif;
+  text-align: left;
+  padding: 2rem 0;
+}
 
+  
+
+a {
+  color: #f3f7ba;
+}
+
+footer{
+    background-color: #5c6e48;
+    color: #f2f89e;
+    padding: 2rem 2rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+  }
 
 
 
