@@ -8,10 +8,16 @@ fetch(requestURL)
    prophets.forEach(prophet => {
      let card = document.createElement('section');
      let h2 = document.createElement('h2');
+     let img = document.createElement('img');
 
-     h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
+     let fullname = `${prophet.name} ${prophet.lastname}`;
+
+     h2.innerHTML = fullname;
+     img.setAttribute('src', prophet.imageurl);
+     img.setAttribute('alt', fullname)
 
      card.appendChild(h2);
+     card.appendChild(img);
 
      document.querySelector('.cards').appendChild (card);
    })
