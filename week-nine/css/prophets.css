@@ -31,24 +31,19 @@ header{
 
 main{
   background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
-  font-family: sans-serif;
-  text-align: left;
-  padding: 2rem 0;
+  text-align: center;
+ 
   font-family: 'Trade Winds', cursive;
 }
 
   
 
-a {
-  color: #f3f7ba;
-}
 
 footer{
     background-color: #5c6e48;
     color: #f2f89e;
     padding: 2rem 2rem;
     font-size: 1rem;
-    font-family: sans-serif;
     text-align: center;
     font-family: 'Trade Winds', cursive;
   }
