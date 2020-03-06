@@ -9,9 +9,9 @@ fetch(requestURL)
      let card = document.createElement('section');
      let h2 = document.createElement('h2');
 
-     h2.textContent = `${prophet.name}` `${prophet.lastname}`;
+     h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
 
-     card.appendChild(h2)
+     card.appendChild(h2);
 
      document.querySelector('.cards').appendChild (card);
    })
