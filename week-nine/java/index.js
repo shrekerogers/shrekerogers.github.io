@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json';
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(requestURL)
  .then(function(response) {
    return response.json();
@@ -10,7 +10,7 @@ fetch(requestURL)
      let h2 = document.createElement('h2');
      let img = document.createElement('img');
 
-     let fullname = `${prophet.name} ${prophet.lastname} ${prophet.birthdate} ${prophet.birthplace}` ;
+     let fullname = `${town.name} ${prophet.lastname} ${prophet.birthdate} ${prophet.birthplace}` ;
      
 
      h2.innerHTML = fullname;
