@@ -8,9 +8,9 @@ fetch(requestURL)
    towns.forEach(town => {
      let card = document.createElement('section');
      let h2 = document.createElement('h2');
+     let fullname = `${town.name}<br> "${town.motto}"<br> Year Founded: ${town.yearFounded}<br> Population: ${town.currentPopulation}<br> Annual Rainfall: ${town.averageRainfall}`;
      let img = document.createElement('img');
-
-     let fullname = `${town.name}   ${town.moto} ${town.currentpopulation} ${town.annualrainfall}` ;
+     
      
 
      h2.innerHTML = fullname;
