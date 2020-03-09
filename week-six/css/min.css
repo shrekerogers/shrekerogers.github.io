@@ -15,7 +15,6 @@ nav button{
 
 nav {
     background-color:   #DDE392;  /*this is the spot for changing the button color*/
-    color: aliceblue;
     font-family: 'Trade Winds', cursive;
     text-align: center;
     border: solid #5c6e48;
@@ -27,6 +26,8 @@ nav ul{
     margin: 0;
     background-color: #AFBE8F;
     border: #504B3A;
+    font-weight: bold;
+    font-size: 20px;
 
 }
 
