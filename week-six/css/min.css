@@ -134,11 +134,14 @@ header{
 
     main figure.businesswomenicon img {
     width: 100%;
+    color: #646F58;
+    border: solid #504B3A;
     }
 
     main figure.businesswomenicon figcaption {
         text-align: center;
         font-size: 0.75rem;
+       
        
     }
 
