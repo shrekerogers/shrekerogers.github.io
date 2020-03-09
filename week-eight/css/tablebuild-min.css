@@ -3,7 +3,7 @@
   
 
 html, thead th, tfoot th, tr, td, caption {
-  font-family: 'ubunto', sans-serif;
+  
   text-align: center;
 }
 caption{
@@ -12,6 +12,7 @@ caption{
   border-collapse: collapse;
   font-weight: bold;
   font-size: x-large;
+  font-family: 'ubunto', sans-serf;
 }
  
 table th{
@@ -21,33 +22,40 @@ table th{
    background-color: #628ca6;
    text-emphasis: bold;
    text-align: center;
+   font-family: 'ubunto', san-serif;
    
  
  }
 
  table, th, td{
    border: 1px solid black;
-   border-collapse: collapse
+   border-collapse: collapse;
+   font-family: 'ubunto', sans-serif;
  }
   table#t01 tr:nth-child(odd){
     background-color: #e7f0ed; 
+    font-family: 'ubunto', sans-serif;
   }
 
   table#t01 tr:nth-child(even){
     background-color: #e7ffed; 
+    font-family: 'ubunto', sans-serif;
   }
 
   td.goal{
     background-color: #628ca6;
     color: white;
+    font-family: 'ubunto', sans-serif;
   }
 
   td.special{
     font-style: italic;
+    font-family: 'ubunto', sans-serif;
   }
   
  tfoot td{
    column-span: all;
    background-color: #7fb9c2;
+   font-family: 'ubunto', sans-serif;
  
 }
