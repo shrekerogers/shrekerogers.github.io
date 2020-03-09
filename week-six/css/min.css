@@ -14,6 +14,7 @@ nav button{
 
 nav {
     background-color:   #DDE392;  /*this is the spot for changing the button color*/
+    color: aliceblue;
     font-family: sans-serif;
     text-align: center;
 }
