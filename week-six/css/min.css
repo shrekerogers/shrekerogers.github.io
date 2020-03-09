@@ -4,6 +4,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+
 nav button{
     margin: .2rem 2%;
     background-color:   #AFBE8F ;
@@ -15,8 +16,9 @@ nav button{
 nav {
     background-color:   #DDE392;  /*this is the spot for changing the button color*/
     color: aliceblue;
-    font-family: sans-serif;
+    font-family: 'Trade Winds', cursive;
     text-align: center;
+    border: solid #5c6e48;
 }
 
 nav ul{
@@ -24,6 +26,7 @@ nav ul{
     padding:    0;
     margin: 0;
     background-color: #AFBE8F;
+    border: #504B3A;
 
 }
 
@@ -32,9 +35,10 @@ nav ul li a{
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color:  #000;
+    color: #646F58;
     border-top: 1px solid rgba(0,0,0,0.5);
     text-align: center;
+    border: solid #5c6e48
 }
 
 
@@ -58,6 +62,7 @@ nav ul.hide {display:   none;}
 header{
       background-color: #646F58; 
       color: #DDE392;
+      font-family: 'Trade Winds', cursive;
       text-align: center; 
   }
 
@@ -122,6 +127,11 @@ header{
       text-align: center;
   }
 
+  div.founders{
+      border: solid #646F58;
+      padding-bottom: 20rem;
+      background-color: #AFBE8F;
+  }
   
   main figure.businesswomenicon {
     width: 20%;
@@ -132,29 +142,29 @@ header{
 
     }
 
-    main figure.businesswomenicon img {
+   
+    main figure.businesswomenicon img{
     width: 100%;
-    color: #646F58;
+    color: #f2f89e;
+    background-color: black;
     border: solid #504B3A;
+    text-align: center;
+    font-size: 0.75rem;
     }
 
-    main figure.businesswomenicon figcaption {
-        text-align: center;
-        font-size: 0.75rem;
-       
-       
-    }
+    
 
   
- footer{
-      background-color: #DDE392;
-      color: #504B3A;
-      padding: 2rem 2rem;
-      font-size: 1rem;
-      border-top: solid #646F58;
-      font-family: sans-serif;
-      text-align: center;
+    footer{
+        color: #f2f89e;
+        padding: 2rem 2rem;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Trade Winds', cursive;
+        background-color: #5c6e48;
+        
     }
+    
 
 
     

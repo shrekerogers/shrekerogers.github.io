@@ -6,6 +6,7 @@ body{
     background-color: #ccf0a7;
     padding-bottom: 1rem;
     margin: auto;
+    content: center;
 }
 
 
@@ -39,16 +40,6 @@ header, footer {
   }
   
   @media (min-device-width: 698px) {
-    .column {
-      width: 230px;
-      height: 230px;
-      display: inline;
-      float: left;
-    }
   }
   
-  .column {
-    width: 230px;
-    height: 230px;
-    margin: auto;
-  }
+  
