@@ -10,7 +10,7 @@ fetch(requestURL)
      let h2 = document.createElement('h2');
      let img = document.createElement('img');
 
-     let fullname = `${prophet.name} ${prophet.lastname} ${prophet.birthdate} ${prophet.birthplace}` ;
+     let fullname = `${prophet.name} ${prophet.lastname}<br> Date Of Birth: ${prophet.birthdate}<br> Place of Birth: ${prophet.birthplace}` ;
      
 
      h2.innerHTML = fullname;
