@@ -130,18 +130,17 @@ header{
 
   div.founders{
       border: solid #646F58;
-      padding-bottom: 20rem;
+      padding: 70rem;
       background-color: #AFBE8F;
   }
   
   main figure.businesswomenicon {
     width: 20%;
     height: 20%;
-    margin: 0 0 0 2%;
+    margin: fixed;
+   
     float: left;
-    
-
-    }
+     }
 
    
     main figure.businesswomenicon img{
@@ -151,6 +150,7 @@ header{
     border: solid #504B3A;
     text-align: center;
     font-size: 0.75rem;
+    padding-bottom: 20%;
     }
 
     
