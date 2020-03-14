@@ -1,0 +1,183 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+nav button{
+    margin: .2rem 2%;
+    background-color:   #AFBE8F ;
+    border: none;
+    font-size: 1.6rem;
+    color:  #DDE392;
+}
+
+nav {
+    background-color:   #DDE392;  /*this is the spot for changing the button color*/
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+    border: solid #5c6e48;
+}
+
+nav ul{
+    list-style-type:    none;
+    padding:    0;
+    margin: 0;
+    background-color: #AFBE8F;
+    border: #504B3A;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #646F58;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    text-align: center;
+    border: solid #5c6e48
+}
+
+
+/*this chakges the background and text color*/
+nav ul li.active {
+background-color:#AFBE8F;
+padding: 1rem 1rem;
+}
+
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {display:   none;}
+    
+
+
+
+
+header{
+      background-color: #646F58; 
+      color: #DDE392;
+      font-family: 'Trade Winds', cursive;
+      text-align: center; 
+  }
+
+  main{
+    background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  
+
+    h2, h3, p {
+        margin: 0;
+        text-align: center;
+    }
+    
+    
+    .herodiv {
+        margin: 10px auto;
+        position: relative;
+        border: 1px  #504B3A;
+        width: 960px;
+        height: 400px;
+    }
+
+    .hero-ph{
+        margin: 10px auto;
+        position: relative;
+        border: 1px  #504B3A;
+        width: 25%;
+        height: 150%;
+
+
+    }
+
+    .currentweather{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        color: rgb(252, 252, 252);
+        background-color: #646F58;
+        border: 1px solid #504B3A;
+        padding: 5rem;
+        box-shadow: none;
+        
+       
+    }
+
+  .flex {
+      display: flex;
+      flex-direction: row;
+  }
+  
+  .col {
+      flex:1 1 100%;
+      color: rgb(247, 222, 0);
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      border-left: 1px solid #000;
+      background-color: #504B3A;
+      text-align: center;
+  }
+
+  div.founders{
+      border: solid #646F58;
+      padding-bottom: 20rem;
+      background-color: #AFBE8F;
+  }
+  
+  main figure.businesswomenicon {
+    width: 20%;
+    height: 20%;
+    margin: 0 0 0 2%;
+    float: left;
+    
+
+    }
+
+   
+    main figure.businesswomenicon img{
+    width: 100%;
+    color: #f2f89e;
+    background-color: black;
+    border: solid #504B3A;
+    text-align: center;
+    font-size: 0.75rem;
+    }
+
+    
+
+  
+    footer{
+        color: #f2f89e;
+        padding: 2rem 2rem;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Trade Winds', cursive;
+        background-color: #5c6e48;
+        
+    }
+    
+
+
+    
+
+
+  
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+
+     
