@@ -19,7 +19,7 @@ nav button {
 
 nav {
     background-color:   #DDE392;  /*this is the spot for changing the button color*/
-    font-family: sans-serif;
+    font-family: 'Trade Winds', cursive;
     text-align: center;
 }
 
@@ -65,6 +65,7 @@ header{
       background-color: #646F58; 
       color: #DDE392;
       text-align: center;
+      font-family: 'Trade Winds', cursive;
       
       
   }
@@ -87,7 +88,7 @@ header{
       color: #f2f89e;
       padding: 2rem 2rem;
       font-size: 1rem;
-      font-family: sans-serif;
+      font-family: 'Trade Winds', cursive;
       text-align: center;
     }
 

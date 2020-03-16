@@ -1,3 +1,55 @@
+nav button{
+  margin: .2rem 2%;
+  background-color:   #AFBE8F ;
+  border: none;
+  font-size: 1.6rem;
+  color:  #DDE392;
+}
+
+nav {
+  background-color:   #DDE392;  /*this is the spot for changing the button color*/
+  font-family: 'Trade Winds', cursive;
+  text-align: center;
+  border: solid #5c6e48;
+}
+
+nav ul{
+  list-style-type:    none;
+  padding:    0;
+  margin: 0;
+  background-color: #AFBE8F;
+  border: #504B3A;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+
+nav ul li a{
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #646F58;
+  border-top: 1px solid rgba(0,0,0,0.5);
+  text-align: center;
+  border: solid #5c6e48
+}
+
+
+/*this chakges the background and text color*/
+nav ul li.active {
+background-color:#AFBE8F;
+padding: 1rem 1rem;
+}
+
+
+nav ul li a:hover{
+  background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {display:   none;}
+  
+
 
 header, footer {
     font-family:  'Trade Winds', cursive;
