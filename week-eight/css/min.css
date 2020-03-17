@@ -72,7 +72,7 @@ header{
 
   main{
     background-color: lightgoldenrodyellow;  /*this is the spot for changing the button color*/
-    font-family: sans-serif;
+    font-family: 'Trade Winds', cursive;
     text-align: left;
     padding: 2rem 0;
   }
