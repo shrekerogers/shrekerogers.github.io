@@ -4,7 +4,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    const currentTemp = documemt.querySelector('#current-temp');
+    const currentTemp = documemt.querySelector('#currenttemp');
    
 
 
