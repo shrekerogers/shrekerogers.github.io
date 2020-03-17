@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/week-five/images/favicon.ico">
+    <meta name="viewpoint" content="width=device-width, initial scale=1.0">
+    <title>Storm Center Reporting
+    </title>
+    <meta name="description"    content="Basic page setup for class">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link href="/week-eight/css/normalize.css" rel="stylesheet">
+    <link href="/week-eight/css/min.css" rel="stylesheet">
+    <link href="/week-eight/css/med.css" rel="stylesheet">
+    <link href="/week-eight/css/max.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    
+        <header>
+     <h1><img src="/week-eight/images/Logo.1.jpg" alt="Company Logo">Spud Country Meteorology</h1>
+            <h2>Storm Reporting Center</h2>
+        </header>
+        
+        
+   
+        <nav class="clearfix">
+            <button onclick= "toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="/week-nine/index.html">Home</a></li>
+                    <li><a href="/week-ten/preston-10.html">Preston</a></li>
+                    <li><a href="/Thanks-New-Cotnent-Coimng-Soon.html">Soda Springs</a></li>
+                    <li><a href="/Thanks-New-Cotnent-Coimng-Soon.html">Fish Haven</a></li>
+                    <li><a href="/week-eight/stormcenter.html">Storm Center</a></li>   
+                    <li><a href="/week-seven/gallery-7.html">Gallery</a></li>   
+            </ul>
+        </nav>
+        
+        
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Storm Center Reporting Application</h1>
+        <form method="get" action="/week-eight/stormcenter-thanks.html">
+    
+            <fieldset>
+                <legend>Storm Report Applicant Info</legend>
+                <label for="firstandlastname">Please Enter First & Last Name.</label>
+                <input type="text" id="firstandlastname" name="firstandlastname"   minlength="4" maxlength="20" size="10" placeholder="John Doe" required><br>
+            
+                <label for="email">What is your email address</label>
+                <input type="text" id="email" name="email"    size="30" placeholder="toocool@gmail.com"><br><br>
+            
+        
+            
+                <label for="phone">What is your phone number?</label><br>
+                <input type="tel" id="phone" name="phone"  placeholder="(888)-888-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small>Format: (208)-888-8888</small><br>
+            
+        
+            
+                <label for="name">What is your Zipcode?</label>
+                <input type="number" id="name" name="name"      placeholder="83713" required>
+
+            </fieldset>
+        
+        
+            <fieldset>
+                <legend>Storm Info</legend>  
+                <label for="dateofstorm">Date of Storm</label>
+                <input type="date" name="dateofstorm" id="dateofstorm">
+            
+            
+                <label for="stormtype">What Type of Weather Was expereienced?</label>
+                <select id="stormtype"  id="stormtype" name="stormtype" >
+                    <option>Flash Flood</option>
+                    <option> Hail</option><br>
+                    <option>Hurricane</option>
+                    <option>Thunderstorm</option>
+                    <option>Tornado</option>
+                </select><br><br>
+            
+            
+                <label for="stormlevel">How bad is the storm on a 1 to 10 number scale? Ten Is the worst you have seen/expereienced.</label>
+                <input type="text"  id="stormlevel" name="stormlevel" value="1"><br><br>
+            
+            
+                <label for="regionofstorm">What Region Was The Storm?</label>
+                <select id="regionofstorm" name="regionofstorm"> 
+                    <option>Preston</option>
+                    <option>Soda Springs</option>
+                    <option>Fish Haven</option>
+                </select>
+            
+            
+                <p>Were You In Danger? <em>Please Chose One</em></p>
+                <input type="radio" id="Yes" name="danger" value="Yes">
+                <label for="Yes">Yes</label><br>
+                <input type="radio" id="Maybe" name="danger" value="Maybe">
+                <label for="Maybe">Maybe</label><br>
+                <input type="radio" id="No" name="danger" value="No">
+                <label for="No">No</label><br><br>
+            
+        
+            
+                <label for="stormcomments">Comments About the Storm</label>
+                <textarea id="stormcomments" name="stormcomments">Is there anything else important that needs to be known about the storm?
+                </textarea><br><br>
+            </fieldset>
+                
+            
+            
+         <input type= "submit" value="Storm Report Submission">
+        
+            
+        
+        </form>
+        </main>
+
+<footer>&#169;2020 | Eric T. Rogers | Idaho | <a href=" https://www.byui.edu/online">BYUI Online Learning</a></footer>  
+<script src="/week-ten/java/toggle.js"></script>
+</body>
+</html>
