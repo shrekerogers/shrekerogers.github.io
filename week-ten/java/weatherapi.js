@@ -1,11 +1,13 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID={ee1ecbe33adbc9091418e495f826c8ae}';
+const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=ee1ecbe33adbc9091418e495f826c8ae';
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
+    
     console.log(jsObject);
-    const currentTemp = documemt.querySelector('#currenttemp');
-   
+    
+    const currentTemp = documemt.querySelector('#current-temp');
+    const weatherIcon = document.querySelector('#imagesrc');
 
 
     currentTemp.textContent = jsObject.main.temp;
@@ -15,7 +17,11 @@ const desc = jsObject.weather[0].description;  // note how we reference the weat
 document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
 document.getElementById('icon').setAttribute('alt', desc);
-   
+
+
+  
+
+ 
   });
 
 
