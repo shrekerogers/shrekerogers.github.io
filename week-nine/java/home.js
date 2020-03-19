@@ -9,9 +9,13 @@ fetch(requestURL)
      let card = document.createElement('section');
      let h2 = document.createElement('h2');
      let fullname = `${town.name}<br> "${town.motto}"<br> Year Founded: ${town.yearFounded}<br> Population: ${town.currentPopulation}<br> Annual Rainfall: ${town.averageRainfall}`;
+
+     
+
      let img = document.createElement('img');
      
-     
+   
+    
 
      h2.innerHTML = fullname;
      img.setAttribute('alt', fullname);
@@ -24,6 +28,8 @@ fetch(requestURL)
     
      document.querySelector('.cards').appendChild (card);
    })
+
+   
  })
 
 
