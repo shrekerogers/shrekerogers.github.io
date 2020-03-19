@@ -106,8 +106,8 @@ header{
         left: 50px;
         color: rgb(252, 252, 252);
         background-color: #646F58;
-        border: 1px solid #504B3A;
-        padding: 5rem;
+        border: 2px solid #504B3A;
+        padding: 2rem;
         box-shadow: none;
         
        
@@ -139,18 +139,20 @@ header{
     height: 20%;
     margin: 0 0 0 2%;
     float: left;
+    padding-bottom: 10rem;
     
 
     }
 
    
     main figure.businesswomenicon img{
-    width: 100%;
+    width: 50%;
     color: #f2f89e;
     background-color: black;
     border: solid #504B3A;
     text-align: center;
     font-size: 0.75rem;
+   
     }
 
     
@@ -159,7 +161,7 @@ header{
     footer{
         color: #f2f89e;
         padding: 2rem 2rem;
-        font-size: 1rem;
+        font-size: 3rem;
         text-align: center;
         font-family: 'Trade Winds', cursive;
         background-color: #5c6e48;
