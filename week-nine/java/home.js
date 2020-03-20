@@ -29,8 +29,13 @@ fetch(requestURL)
      document.querySelector('.cards').appendChild (card);
    })
 
+   /*Attempting to pull out the 3 towns we need but getting lost*/
+  // for (let i<1; i<towns; i++) {
+  //document.getElementById(`towns${i+1}`).textContent = towns.fullname.town.name;
+   //}
+
    
  })
-
+g
 
  
