@@ -10,7 +10,6 @@ fetch(apiURL)
 
     const currentWeather = document.querySelector('#current-weather');
 
-
     const currentWind = document.querySelector('#current-wind')
 
     const currentHumidity = document.querySelector('#humidity')
