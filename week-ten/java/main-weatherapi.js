@@ -8,11 +8,12 @@ fetch(apiURL)
     
     const currentTemp = document.querySelector('#current-temp');
 
-    const weatherIcon = document.querySelector('#imagesrc');
-
     const currentWeather = document.querySelector('#current-weather');
 
+
     const currentWind = document.querySelector('#current-wind')
+
+    const currentHumidity = document.querySelector('#humidity')
 
     currentTemp.textContent = jsObject.main.temp;
 
@@ -20,9 +21,17 @@ fetch(apiURL)
 
     currentWind.textContent = jsObject.wind.speed;
 
+    currentHumidity.textContent = jsObject.main.humidity
+
+
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`; 
     
 const desc = jsObject.weather[0].description; 
+
+
+
+
+
 
   });
 
