@@ -113,7 +113,7 @@ header{
        
     }
 
-  .flex {
+  .forecast {
       display: flex;
       flex-direction: row;
   }
