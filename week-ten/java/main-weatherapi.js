@@ -8,13 +8,13 @@ fetch(apiURL)
     
     const currentTemp = document.querySelector('#current-temp');
     const currentWeather = document.querySelector('#current-weather');
-    const windSpeed = document.querySelector('#wind-speed')
+    const currentWind = document.querySelector('#current-wind')
     const weatherIcon = document.querySelector('#imagesrc');
 
 
     currentTemp.textContent = jsObject.main.temp;
     currentWeather.textContent = jsObject.weather.main;
-    wincSpeed.textContent = jsObject.wind.speed;
+    currentWind.textContent = jsObject.wind.speed;
 
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`; 
     
