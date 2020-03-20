@@ -7,10 +7,12 @@ fetch(apiURL)
     console.log(jsObject);
     
     const currentTemp = document.querySelector('#current-temp');
+    const weather = document.querySelector('#current-weather')
     const weatherIcon = document.querySelector('#imagesrc');
 
 
     currentTemp.textContent = jsObject.main.temp;
+    weather.textContent = jsObject.weather.main;
 
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`; 
     
