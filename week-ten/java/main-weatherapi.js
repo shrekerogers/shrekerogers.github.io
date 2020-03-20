@@ -7,29 +7,23 @@ fetch(apiURL)
     console.log(jsObject);
     
     const currentTemp = document.querySelector('#current-temp');
-    const currentWeather = document.querySelector('#current-weather');
-    const currentWind = document.querySelector('#current-wind')
+
     const weatherIcon = document.querySelector('#imagesrc');
 
+    const currentWeather = document.querySelector('#current-weather');
+
+    const currentWind = document.querySelector('#current-wind')
 
     currentTemp.textContent = jsObject.main.temp;
+
     currentWeather.textContent = jsObject.weather.main;
+
     currentWind.textContent = jsObject.wind.speed;
 
     const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`; 
     
 const desc = jsObject.weather[0].description; 
 
-document.getElementById('imagesrc').textContent = imagesrc;  
-
-document.getElementById('icon').setAttribute('src', imagesrc);  
-
-document.getElementById('icon').setAttribute('alt', desc);
-
-
-  
-
- 
   });
 
 
