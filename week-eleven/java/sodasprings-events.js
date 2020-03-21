@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+//const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(requestURL)
  .then(function(response) {
    return response.json();
@@ -27,6 +27,8 @@ fetch(requestURL)
      card.appendChild(img);
     
      document.querySelector('.events').appendChild (card);
+
+        
    })
 
    /*Attempting to pull out the 3 towns we need but getting lost*/
