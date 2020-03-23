@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="discription" content="Weather Page for Preston Idaho">
+<link rel="shortcut icon" href="/week-five/images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Preston, Idaho</title>
+<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+<link href="/week-one/css/normalize.css" rel="stylesheet">
+<link href="/week-eleven/css/min.css" rel="stylesheet">
+<link href="/week-eleven/css/med.css" rel="stylesheet">
+<link href="/week-eleven/css/max.css" rel="stylesheet">
+</head> 
+
+<body>
+
+	<header>
+    <h1><img src="/week-five/images/Logo.1.jpg"    
+        alt="Company Logo">Spud Country Meteorology</h1>
+        <h2>Weather Made Simple</h2>
+    </header>
+    
+    <!--need help getting these to be in the center.  Do not understand how to fix.-->
+    <nav class="clearfix">
+        <button onclick= "toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/week-nine/index.html">Home</a></li>
+                <li><a href="/week-eleven/preston.html">Preston</a></li>
+                <li><a href="/week-eleven/soda-springs.html">Soda Springs</a></li>
+                <li><a href="/week-eleven/fish-haven.html">Fish Haven</a></li>
+                <li><a href="/week-eight/stormcenter.html">Storm Center</a></li>   
+                <li><a href="/week-seven/gallery-7.html">Gallery</a></li>   
+        </ul>
+    </nav>
+
+
+    <main>
+        <h2>Preston Idaho</h2>        
+     
+        <div class="herodiv">
+            <img src="/week-six/images/Picture1-2.2.jpg" alt="townphoto">
+            <section class="currentweather">
+            <h3>Weather Summary</h3>
+            Current: <span id = "current-weather"></span><br>
+
+            High:<span id="current-temp"></span> &deg; F<br>
+
+             <span id= "windchill">Wind Chill:</span><br>
+
+             Humidity: <span id= "humidity"></span> &#37;<br>
+
+             Wind: <span id= "current-wind"></span>mph
+            <hr>
+
+            </section>                     
+        </div>
+
+
+        <h4>High Temperature</h4>
+        <div class= "grid"></div>
+            <section class = "forecast">
+       
+            <ul>
+                <li id="forecast1"></li>
+                <li id="forecast2"></li>
+                <li id="forecast3"></li>
+                <li id="forecast4"></li>
+                <li id="forecast5"></li>
+            </ul>
+        </section>
+        </div>
+
+
+        <div class="events"></div>
+        <h4>Upcoming Events</h4> 
+       
+        <div class="founders">
+            <h3>After Napleon Dynamite</h3>
+            <h3>By: Janica Juarez</h3>
+           
+            <figure class="businesswomenicon">
+                <img src="/week-six/images/close-independent-business-woman-portrait-footage.1.jpeg" alt="businesswomenicon"><br>
+                Janica Juarez
+            </figure>
+                <p>It has been a over decade since the movie Napleon Dynmaite was filmed her in PReston locally.  It was exciting to have Holywood at our doorsteps and the potential to shed a good light on our tiny town in Idaho.  The possiblities seem endless right because of the spotlight?  Ten years and beyond not much has changed for Preston and it remains basically the same quite town in Southern Idaho.
+
+                Not much has changed and we still go about our normal lives as if nothing happened here.  So what happend to the possibilites or is this town like the typical small town Amercia that gets glimpses of the outside world that never stay?  The prospect of small town is appealing to most locals and most would say they are glad the town has not changed much.  It stayed a quite and affordable place to live!
+                </p>
+        </div>
+
+       
+
+        <div class="contactinfo">
+            <h2>Spud Country Meteorology</h2>
+                
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33493.526868550936!2d-111.90051224466401!3d42.098100161006904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1584737644835!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                
+                <p><img src="/week-five/images/icons8-marker-48.png" alt="makericon">30 N. 1st E</p>
+                <p>Preston, ID  83263</p>
+
+                <p><img src="/week-five/images/icons8-number-pad-64.png" alt="phoneicon">(999)-999-9999</p>
+
+                <p><img src="/week-five/images/icons8-email-64.png" alt="emailicon">&#169; spudcountrymeteorology@tws.com</p>
+
+                <p><img src="/week-five/images/icons8-facebook-64.png" alt="facebookicon"><img src="/week-five/images/icons8-twitter-circled-48.png" alt="twittericon"><img src="/week-five/images/icons8-instagram-64.png" alt="instagramicon"><img src="/week-five/images/icons8-pinterest-64.png" alt="pinteresticon"></p>
+           </section>     
+
+
+
+
+        </div>
+
+
+                         
+    </main>
+
+<footer>&#169; 2020 | Eric T. Rogers | Idaho | Weather Provided by OpenWeather.org<br><a style="color:#f2f89e" href=" https://www.byui.edu/online">BYUI Online Learning</a></footer>
+<script src= "/week-eleven/java/preston-weatherapi.js"></script>  
+<script src="/week-ten/java/toggle.js"></script>
+<script src="/week-eleven/java/preston-forecast.js"></script>
+<script src="/week-eleven/java/preston-events.js"></script>
+</body>
+</html>
