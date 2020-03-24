@@ -13,7 +13,7 @@ body {
 
 header {
     background-color: $primaryColor;
-    padding: 1rem 2%;
+    padding: 1rem $gutter;
 }
 header h1 {
 	margin: 0; 
@@ -39,7 +39,7 @@ nav a {
 }
 nav a:hover {background-color: #444;}
 
-main{display: block; padding: 1rem 2%;}
+main{display: block; padding: 1rem $gutter;}
 main h1 {color: $primaryColor;
 font-weight: $heavyWeight;
 }
@@ -58,7 +58,7 @@ main figcaption {text-align: center; font-size: .8rem;}
 footer {
     background-color: $primaryColor;
     text-align: center;
-    padding: 1rem 2%;
+    padding: 1rem $gutter;
 }
 
 
