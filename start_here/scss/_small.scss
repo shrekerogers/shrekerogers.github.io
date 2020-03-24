@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #17a8e4;
+    background-color: $primaryColor;
     padding: 1rem 2%;
 }
 header h1 {
@@ -38,7 +38,7 @@ nav a {
 nav a:hover {background-color: #444;}
 
 main{display: block; padding: 1rem 2%;}
-main h1 {color: #17a8e4;}
+main h1 {color: $primaryColor;}
 
 main figure img {width: 100%;}
 main figure{
@@ -52,7 +52,7 @@ main figcaption {text-align: center; font-size: .8rem;}
 
 
 footer {
-    background-color: #17a8e4;
+    background-color: $primaryColor;
     text-align: center;
     padding: 1rem 2%;
 }
