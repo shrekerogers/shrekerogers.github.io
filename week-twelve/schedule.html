@@ -1,58 +1,124 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="en-us">
 <head>
-<meta charset="utf-8">
-<link rel="shortcut icon" href="/week-twelve/image/favicon.ico">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="Eric T. Rogers">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/week-five/images/favicon.ico">
+    <meta name="viewpoint" content="width=device-width, initial scale=1.0">
+    <title>Storm Center Reporting
+    </title>
+    <meta name="description"    content="Basic page setup for class">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link href="/week-eight/css/normalize.css" rel="stylesheet">
+    <link href="/week-twelve/css/min.css" rel="stylesheet">
+    <link href="/week-twelve/css/med.css" rel="stylesheet">
+    <link href="/week-twelve/css/max.css" rel="stylesheet">
+    
 
-
-<title>Salmon River Scheduling & Contact</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="/week-eight/css/normalize.css" rel="stylesheet">
-<link href="/week-twelve/css/salmon-home-min.css" rel="stylesheet">
-<link href="/week-twelve/css/salmon-home-med.css" rel="stylesheet">
-<link href="/week-twelve/css/salmon-home-max.css" rel="stylesheet">
-
-
-     
 </head>
+
 <body>
-<!-- HEADER HERE -->
-	<header>
- <h1><img src="/week-twelve/image/rafting-icon.jpg" alt="Company Logo">Salmon River Adventures</h1>
-        <h2>Rafting For All!</h2>
-    </header>
     
-    
-
-    <nav class="clearfix">
-        <button onclick= "toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-                <li><a href="/week-twelve/salmonriver.html">Home</a></li>
-                <li><a href="">Preston</a></li>
-                <li><a href="/week-eleven/soda-springs.html">River Guide</a></li>
-                <li><a href="">Fish Haven</a></li>
-                <li><a href="/week-eight/stormcenter.html">Rafting Scheuling and Contact</a></li>   
-                <li><a href="/week-seven/gallery-7.html">Gallery</a></li>   
-        </ul>
-    </nav>
-    
-    
-<!-- CONTENT HERE -->
-<main>
-    <h1>Storm Reproting Application Center</h1>
-        <p>Thanks for submitting your contact info to us!</p>
-
-          
+        <header>
+            <h1><img src="/week-twelve/image/rafting-icon.jpg" alt="Company Logo">Salmon River Adventures</h1>
+            <h2>Salmon River Scheduling Center</h2>
+        </header>
         
-    </main>
+        
+   
+        <nav class="clearfix">
+            <button onclick= "toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="/week-twelve/salmonriver.html">Home</a></li>
+                    <li><a href="">Preston</a></li>
+                    <li><a href="/week-eleven/soda-springs.html">River Guide</a></li>
+                    <li><a href="">Fish Haven</a></li>
+                    <li><a href="/week-eight/stormcenter.html">Rafting Scheuling and Contact</a></li>   
+                    <li><a href="/week-seven/gallery-7.html">Gallery</a><li>    
+            </ul>
+        </nav>
+        
+        
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Salmon River Contact & Scheduling </h1>
+        <form method="get" action="/week-eight/stormcenter-thanks.html">
     
-<!-- FOOTER HERE -->   
-<footer>&#169; 2020 | Eric T. Rogers | Idaho | <a href=" https://www.byui.edu/online">BYUI Online Learning</a></footer>  
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
-</script>
+            <fieldset>
+                <legend>Salmon River Applicant Info</legend>
+                <label for="firstandlastname">Please Enter First & Last Name.</label>
+                <input type="text" id="firstandlastname" name="firstandlastname"   minlength="4" maxlength="20" size="10" placeholder="John Doe" required><br>
+            
+                <label for="email">What is your email address</label>
+                <input type="text" id="email" name="email"    size="30" placeholder="toocool@gmail.com"><br><br>
+            
+        
+            
+                <label for="phone">What is your phone number?</label><br>
+                <input type="tel" id="phone" name="phone"  placeholder="(888)-888-8888" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small>Format: (208)-888-8888</small><br>
+            
+        
+            
+                <label for="name">What is your Zipcode?</label>
+                <input type="number" id="name" name="name"      placeholder="83713" required>
+
+            </fieldset>
+        
+        
+            <fieldset>
+                <legend>Rafting Trip Booking</legend>  
+                <label for="dateoftrip">Date of Adventure</label>
+                <input type="date" name="dateofstorm" id="dateofstorm">
+            
+            
+                <label for="stormtype">What Type of Rafting Do You Want To Do?</label>
+                <select id="stormtype"  id="stormtype" name="stormtype" >
+                    <option>12 Man Raft</option>
+                    <option>10 Man Raft</option>
+                    <option>Kayak</option><br>
+                    <option>Inflatable Kayak</option>
+                    <option>Canoe</option>
+                    
+                </select><br><br>
+            
+            
+                <label for="stormlevel">How bad is the storm on a 1 to 10 </label>
+                <input type="text"  id="stormlevel" name="stormlevel" value="1"><br><br>
+            
+            
+                <label for="regionofstorm">What Region Was The Storm?</label>
+                <select id="regionofstorm" name="regionofstorm"> 
+                    <option>Preston</option>
+                    <option>Soda Springs</option>
+                    <option>Fish Haven</option>
+                </select>
+            
+            
+                <p>Were You In Danger? <em>Please Chose One</em></p>
+                <input type="radio" id="Yes" name="danger" value="Yes">
+                <label for="Yes">Yes</label><br>
+                <input type="radio" id="Maybe" name="danger" value="Maybe">
+                <label for="Maybe">Maybe</label><br>
+                <input type="radio" id="No" name="danger" value="No">
+                <label for="No">No</label><br><br>
+            
+        
+            
+                <label for="stormcomments">Comments About the Storm</label>
+                <textarea id="stormcomments" name="stormcomments">Is there anything else important that needs to be known about the storm?
+                </textarea><br><br>
+            </fieldset>
+                
+            
+            
+         <input type= "submit" value="Contact & Scheduling Submission">
+        
+            
+        
+        </form>
+        </main>
+
+<footer>&#169;2020 | Eric T. Rogers | Idaho | <a href=" https://www.byui.edu/online">BYUI Online Learning</a></footer>  
 <script src="/week-ten/java/toggle.js"></script>
-<script src="/week-eight/java/webload.js"></script>
 </body>
 </html>
