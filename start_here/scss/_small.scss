@@ -42,20 +42,19 @@ nav {background-color: #111;
 }//end nav
 
 
-main{display: block; padding: 1rem $gutter;}
+main{display: block; padding: 1rem $gutter;
 main h1 {color: $primaryColor;
     font-weight: $heavyWeight;
 }
 
-main figure img {width: 100%;}
-main figure{
+    figure img {width: 100%;}//end of img
+    figure{
     margin: 0;
     width: 100%;
-    
-}
-main figcaption {text-align: center; font-size: .8rem;}
+    }//end of fig
+    figcaption {text-align: center; font-size: .8rem;}//end of fig
 
-
+}//end of main
 
 
 footer {
