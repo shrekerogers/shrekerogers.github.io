@@ -14,17 +14,18 @@ body {
 header {
     background-color: $primaryColor;
     padding: 1rem $gutter;
-}
-header h1 {
-	margin: 0; 
-    font-size: 1.5rem;
-    font-weight: $heavyWeight;
-}
-header h2{
-	margin: 0; 
-	font-size: 1.2rem; 
-	font-weight: $regularWeight;
-}
+    h1 {
+        margin: 0; 
+        font-size: 1.5rem;
+        font-weight: $heavyWeight;
+    }//end of h1
+    h2{
+        margin: 0; 
+        font-size: 1.2rem; 
+        font-weight: $regularWeight;
+    }//end of h2
+}//end of header
+
 
 nav {background-color: #111;}
 nav ul{margin:0; padding: 0;}
