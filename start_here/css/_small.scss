@@ -6,24 +6,22 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* body rules */
 body {
-    font-family: $fontFamily;
-    font-weight: $regularWeight;
+    font-family: Verdana;
     font-size: 16px;
 }
 
 header {
-    background-color: $primaryColor;
-    padding: 1rem $gutter;
+    background-color: #17a8e4;
+    padding: 1rem 2%;
 }
 header h1 {
 	margin: 0; 
-    font-size: 1.5rem;
-    font-weight: $heavyWeight;
+	font-size: 1.5rem;
 }
 header h2{
 	margin: 0; 
 	font-size: 1.2rem; 
-	font-weight: $regularWeight;
+	font-weight: normal;
 }
 
 nav {background-color: #111;}
@@ -39,10 +37,8 @@ nav a {
 }
 nav a:hover {background-color: #444;}
 
-main{display: block; padding: 1rem $gutter;}
-main h1 {color: $primaryColor;
-font-weight: $heavyWeight;
-}
+main{display: block; padding: 1rem 2%;}
+main h1 {color: #17a8e4;}
 
 main figure img {width: 100%;}
 main figure{
@@ -56,9 +52,9 @@ main figcaption {text-align: center; font-size: .8rem;}
 
 
 footer {
-    background-color: $primaryColor;
+    background-color: #17a8e4;
     text-align: center;
-    padding: 1rem $gutter;
+    padding: 1rem 2%;
 }
 
 
