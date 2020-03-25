@@ -496,7 +496,7 @@ main {
   display: block;
   padding: 1rem 2%;
 }
-main main h1 {
+main h1 {
   color: #e4c517;
   font-weight: 700;
 }
