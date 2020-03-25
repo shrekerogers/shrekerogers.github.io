@@ -8,8 +8,7 @@ Error: Invalid CSS after "...ly: font-family": expected selector or at-rule, was
 3: $fontFamily: font-family: 'Quicksand', sans-serif;
 4: 
 5: $regularWeight: 300;
-6: 
-7: $heavyWeight: 700;
+6: $heavyWeight: 700;
 
 Backtrace:
 C:/Users/erica/Desktop/Eric School/CIT 230/shrekerogers.github.io/start_here/scss/_variables.scss:3
@@ -55,4 +54,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...ly: font-family\": expected selector or at-rule, was \": 'Quicksand', ...\"\A         on line 3 of C:/Users/erica/Desktop/Eric School/CIT 230/shrekerogers.github.io/start_here/scss/_variables.scss\A         from line 3 of C:\Users\erica\Desktop\Eric School\CIT 230\shrekerogers.github.io\start_here\scss\styles.scss\A \A 1: $primaryColor: #e4c517;\A 2: \A 3: $fontFamily: font-family: 'Quicksand', sans-serif;\A 4: \A 5: $regularWeight: 300;\A 6: \A 7: $heavyWeight: 700;"; }
+  content: "Error: Invalid CSS after \"...ly: font-family\": expected selector or at-rule, was \": 'Quicksand', ...\"\A         on line 3 of C:/Users/erica/Desktop/Eric School/CIT 230/shrekerogers.github.io/start_here/scss/_variables.scss\A         from line 3 of C:\Users\erica\Desktop\Eric School\CIT 230\shrekerogers.github.io\start_here\scss\styles.scss\A \A 1: $primaryColor: #e4c517;\A 2: \A 3: $fontFamily: font-family: 'Quicksand', sans-serif;\A 4: \A 5: $regularWeight: 300;\A 6: $heavyWeight: 700;"; }
