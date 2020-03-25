@@ -470,20 +470,16 @@ header h2 {
 nav {
   background-color: #111;
 }
-
 nav ul {
   margin: 0;
   padding: 0;
 }
-
 nav li {
   list-style-type: none;
 }
-
 nav li.active {
   background-color: #333;
 }
-
 nav a {
   display: block;
   padding: .8rem 0;
@@ -492,7 +488,6 @@ nav a {
   text-align: center;
   text-decoration: none;
 }
-
 nav a:hover {
   background-color: #444;
 }

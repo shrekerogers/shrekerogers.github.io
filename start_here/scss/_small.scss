@@ -27,18 +27,20 @@ header {
 }//end of header
 
 
-nav {background-color: #111;}
-nav ul{margin:0; padding: 0;}
-nav li {list-style-type: none;}
-nav li.active {background-color: #333}
-nav a {
+nav {background-color: #111;
+    ul{margin:0; padding: 0;}//end of ul
+    li {list-style-type: none;}//end of li
+    li.active {background-color: #333}//end of active
+    a {
     display: block;
     padding: .8rem 0; /*44px min*/
     color: #eee;
     text-align: center;
-    text-decoration: none;
-}
-nav a:hover {background-color: #444;}
+    text-decoration: none;//end of a
+    }
+    a:hover {background-color: #444;}//end of hover
+}//end nav
+
 
 main{display: block; padding: 1rem $gutter;}
 main h1 {color: $primaryColor;
