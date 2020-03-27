@@ -1,0 +1,37 @@
+
+{
+  "profiles" : [
+  {
+    "firstname": "Jamie ",
+    "lastname": "Smith",
+    
+  },
+  {
+    "name": "Fish Haven",
+    "photo": "fishhaven.jpg",
+    "motto": "This is Fish Heaven.",
+    "yearFounded": 1864,
+    "currentPopulation": 501,
+    "averageRainfall": 14.20,
+    "events" : [
+      "April 1: How Big Was That Fish Day",
+      "May 15-30: Rush the Creek Days",
+      "July 24: Bear Lake Blunder Run",
+      "December 12: Light the Tree"
+    ]
+  },
+  {
+    "name": "Greenville",
+    "photo": "greenville.jpg",
+    "motto": "Green is our way of life.",
+    "yearFounded": 1805,
+    "currentPopulation": 33458,
+    "averageRainfall": 25,
+    "events" : [
+      "February 10-12: Greenbration",
+      "May 8 - 18: Greenville Founder Days",
+      "June 20: Verde and Valiant Day",
+      "November 15-16: Greensome Gathering"
+    ]
+  }
+}
