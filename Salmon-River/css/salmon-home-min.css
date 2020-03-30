@@ -19,7 +19,7 @@ header, main, footer{
 }
 
 nav {
-    background-color:   #DDE392;  /*this is the spot for changing the button color*/
+    background-color:   #bdd5ea;  /*this is the spot for changing the button color*/
     font-family: 'Trade Winds', cursive;
     text-align: center;
     border: solid #5c6e48;
@@ -41,7 +41,7 @@ nav ul li a{
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #646F58;
+    color: #577399;
     border-top: 1px solid rgba(0,0,0,0.5);
     text-align: center;
     border: solid #5c6e48
@@ -78,8 +78,8 @@ nav ul.hide {display:   none;}
  
  
  header{
-     background-color: #646F58; 
-     color: #DDE392;
+     background-color: #495867; 
+     color: #f7f7ff;
      text-align: center;
      
      
