@@ -80,15 +80,14 @@ header{
     color: #f3f7ba;
 }
   
- footer{
-      background-color: #5c6e48;
-      color: #f2f89e;
-      padding: 2rem 2rem;
-      font-size: 1rem;
-      font-family: 'Trade Winds', cursive;
-      text-align: center;
-    }
-
+footer{
+    background-color: #495867;
+    color: #f7f7ff;
+    padding: 2rem 2rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Trade Winds', cursive;
+  }
 
    /*----- Clearfix: Force an Element not to collapse -----*/
     .clearfix:after {
