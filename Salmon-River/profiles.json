@@ -1,27 +1,27 @@
-
-
+[
   {
-    "firstname": "Jamie ",
-    "lastname": "Smith",
+    "name" : "Jamie Smith",
+    "postion" : "Marketing and Sales",
+    "birthday" : "10/10/1981",
+    "favoriteRafting" : "Kayaking",
+    "img src" : ""
   }
 
   {
-    "name": "Fish Haven",
-    "photo": "fishhaven.jpg",
-    "motto": "This is Fish Heaven.",
-    "yearFounded": 1864,
-    "currentPopulation": 501,
-    "averageRainfall": 14.20,
-    
-    
+    "name" : "Robert BRian",
+    "postion" : "River Guide",
+    "birthday" : "birthday",
+    "favoriteRafting" : "type of rafting",
+    "image" : ""
   }
-  
+
   {
-    "name": "Greenville",
-    "photo": "greenville.jpg",
-    "motto": "Green is our way of life.",
-    "yearFounded": 1805,
-    "currentPopulation": 33458,
-    "averageRainfall": 25,
-   
+    "name" : "a fullname",
+    "postion" : "job postion",
+    "birthday" : "birthday",
+    "favoriteRafting" : "type of rafting",
+    "image" : ""
   }
+
+
+]
