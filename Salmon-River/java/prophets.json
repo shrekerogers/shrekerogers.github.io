@@ -1,5 +1,5 @@
-{
-  "prophets": [
+[
+  
     {
       "name": "Joseph",
       "lastname": "Smith",
@@ -185,7 +185,6 @@
       "order": 17,
       "birthplace": "Utah",
       "numofchildren": 10,
-      "imageurl": "https://media.ldscdn.org/images/media-library/church-leadership/first-presidency-and-quorum-of-the-twelve-apostles/russell-nelson-official-portrait-2018-2044670-gallery.jpg"
+      "imageurl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" 
     }
   ]
-}

@@ -4,7 +4,7 @@
     "postion" : "Marketing and Sales",
     "birthday" : "10/10/1981",
     "favoriteRafting" : "Kayaking",
-    "img src" : ""
+    "imageurl" : ""
   },
 
   {
@@ -12,16 +12,16 @@
     "postion" : "River Guide",
     "birthday" : "birthday",
     "favoriteRafting" : "type of rafting",
-    "image" : ""
+    "imageurl" : ""
   },
 
   {
-    "name" : "a fullname",
+    "name" : "John Redmon",
     "postion" : "job postion",
     "birthday" : "birthday",
     "favoriteRafting" : "type of rafting",
-    "image" : ""
+    "imageurl" : ""
   }
-
+ 
 
 ]
