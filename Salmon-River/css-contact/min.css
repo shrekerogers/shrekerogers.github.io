@@ -68,7 +68,8 @@ header{
   }
 
   main{
-    background-color: #f7f7ff;  /*this is the spot for changing the button color*/
+    background-color: #f7f7ff;
+    color: #495867;  
     font-family: sans-serif;
     text-align: center;
     padding: 2rem 0;
@@ -79,84 +80,9 @@ header{
     h2, h3, p {
         margin: 0;
         text-align: center;
+        font-size: 40px;
+        color: #495867;
     }
-    
-    
-    .herodiv {
-        margin: 10px auto;
-        position: relative;
-        border: 1px  #504B3A;
-        width: 960px;
-        height: 400px;
-    }
-
-    .hero-ph{
-        margin: 10px auto;
-        position: relative;
-        border: 1px  #504B3A;
-        width: 25%;
-        height: 150%;
-
-
-    }
-
-    .currentweather{
-        position: absolute;
-        top: 50px;
-        left: 50px;
-        color: #f7f7ff;
-        background-color: #577399;
-        border: 2px solid #495867;
-        padding: 2rem;
-        box-shadow: none;
-        
-       
-    }
-
-  .forecast {
-      display: flex;
-      flex-direction: row;
-  }
-  
-  .col {
-      flex:1 1 100%;
-      color: rgb(247, 222, 0);
-      border-top: 1px solid #000;
-      border-bottom: 1px solid #000;
-      border-left: 1px solid #000;
-      background-color: #504B3A;
-      text-align: center;
-  }
-
-  div.founders{
-      border: solid #646F58;
-      padding-bottom: 20rem;
-      background-color: #AFBE8F;
-  }
-  
-  main figure.businesswomenicon {
-    width: 20%;
-    height: 20%;
-    margin: 0 0 0 2%;
-    float: left;
-    padding-bottom: 10rem;
-    
-
-    }
-
-   
-    main figure.businesswomenicon img{
-    width: 50%;
-    color: #f2f89e;
-    background-color: black;
-    border: solid #504B3A;
-    text-align: center;
-    font-size: 0.75rem;
-   
-    }
-
-    
-
   
     footer{
         background-color: #495867;
