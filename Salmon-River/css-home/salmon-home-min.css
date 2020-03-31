@@ -11,10 +11,10 @@ header, main, footer{
  
  nav button{
     margin: .2rem 2%;
-    background-color:   #AFBE8F ;
+    background-color:   #577399 ;
     border: none;
     font-size: 1.6rem;
-    color:  #DDE392;
+    color:  #bdd5ea;
     
 }
 
@@ -22,15 +22,15 @@ nav {
     background-color:   #bdd5ea;  /*this is the spot for changing the button color*/
     font-family: 'Trade Winds', cursive;
     text-align: center;
-    border: solid #5c6e48;
+    border: solid #495867;
 }
 
 nav ul{
     list-style-type:    none;
     padding:    0;
     margin: 0;
-    background-color: #AFBE8F;
-    border: #504B3A;
+    background-color: #f7f7ff;
+    border: #495867;
     font-weight: bold;
     font-size: 20px;
 
@@ -44,7 +44,7 @@ nav ul li a{
     color: #577399;
     border-top: 1px solid rgba(0,0,0,0.5);
     text-align: center;
-    border: solid #5c6e48
+    border: solid #495867;
 }
 
 
