@@ -3,8 +3,8 @@
     "name" : "Jamie Smith",
     "postion" : "Marketing and Sales",
     "birthday" : "10/10/1981",
-    "favoriteRafting" : "Kayaking",
-    "imageurl" : ""
+    "rafting" : "Kayaking",
+    "imageurl" : "jamie.jpeg"
   },
 
   {
@@ -12,7 +12,7 @@
     "postion" : "River Guide",
     "birthday" : "birthday",
     "favoriteRafting" : "type of rafting",
-    "imageurl" : ""
+    "imageurl" : "robert.jpeg"
   },
 
   {
@@ -20,7 +20,7 @@
     "postion" : "job postion",
     "birthday" : "birthday",
     "favoriteRafting" : "type of rafting",
-    "imageurl" : ""
+    "imageurl" : "john.jpeg"
   }
  
 
