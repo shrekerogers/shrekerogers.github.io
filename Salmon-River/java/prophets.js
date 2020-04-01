@@ -6,7 +6,7 @@ fetch(requestURL)
  .then(function (jsonObject) {
    const prophets = jsonObject['prophets'];
    prophets.forEach(prophet => {
-     let profile = document.createElement('section');
+     let prophet = document.createElement('section');
      let h2 = document.createElement('h2');
      let img = document.createElement('img');
 
@@ -21,7 +21,7 @@ fetch(requestURL)
      profile.appendChild(h2);
      profile.appendChild(img);
     
-     document.querySelector('.profile').appendChild (profile);
+     document.querySelector('.prophet').appendChild (profile);
    })
  })
 
