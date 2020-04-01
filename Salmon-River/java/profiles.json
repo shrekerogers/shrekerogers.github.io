@@ -1,10 +1,11 @@
 [
   {
-    "name" : "Jamie Smith",
+    "name" : "Jamie",
+    "lastname" : "Smith",
     "postion" : "Marketing and Sales",
     "birthday" : "10/10/1981",
     "rafting" : "Kayaking",
-    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/jamie.jpeg"
+    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/jamie.jpg"
   },
 
   {
@@ -12,7 +13,7 @@
     "postion" : "River Guide",
     "birthday" : "birthday",
     "favoriteRafting" : "type of rafting",
-    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/robert.jpeg"
+    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/robert.jpg"
   },
 
   {
@@ -20,7 +21,7 @@
     "postion" : "job postion",
     "birthday" : "birthday",
     "favoriteRafting" : "type of rafting",
-    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/john.jpeg"
+    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/john.jpg"
   }
  
 
