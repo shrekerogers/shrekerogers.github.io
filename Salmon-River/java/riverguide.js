@@ -5,7 +5,7 @@ fetch(requestURL)
  })
  .then(function (jsonObject) {
    const prophets = jsonObject['profiles'];
-   prophets.forEach(prophet => {
+   prophets.forEach(profile => {
      let profile = document.createElement('section');
      let h2 = document.createElement('h2');
      let img = document.createElement('img');
@@ -14,7 +14,7 @@ fetch(requestURL)
      
 
      h2.innerHTML = fullname;
-     img.setAttribute('src', prophet.imageurl);
+     img.setAttribute('src', profile.imageurl);
      img.setAttribute('alt', fullname)
      
 
