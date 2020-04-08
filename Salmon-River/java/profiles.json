@@ -5,7 +5,7 @@
     "postion" : "Marketing and Sales",
     "birthday" : "10/10/1981",
     "rafting" : "Kayaking",
-    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/jamie.jpg"
+    "image" : "jamie.jpg"
   },
 
   {
@@ -13,7 +13,7 @@
     "postion" : "River Guide",
     "birthday" : "birthday",
     "favoriteRafting" : "type of rafting",
-    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/robert.jpg"
+    "image" : "robert.jpg"
   },
 
   {
@@ -21,7 +21,7 @@
     "postion" : "job postion",
     "birthday" : "birthday",
     "favoriteRafting" : "type of rafting",
-    "imageurl" : "https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/image/john.jpg"
+    "image" : "john.jpg"
   }
  
 

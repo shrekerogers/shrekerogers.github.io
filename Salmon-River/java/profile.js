@@ -1,5 +1,6 @@
-const requestURL = 'https://github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/java/profiles.json';
-fetch(requestURL)
+const requestURL = 'https://embed.github.com/shrekerogers/shrekerogers.github.io/blob/master/Salmon-River/java/profiles.json';
+
+fetch('https://api.github.com/orgs/nodejs')
  .then(function(response) {
    return response.json();
  })
